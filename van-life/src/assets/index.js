@@ -23,8 +23,14 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import plane from "./plane.svg";
+import earth from "./earth.svg";
+import planetOutline from "./planet-outline.svg";
 
 export {
+  planetOutline,
+  earth,
+  plane,
   airbnb,
   bill,
   binance,
