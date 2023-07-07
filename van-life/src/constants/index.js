@@ -20,7 +20,7 @@ export const navLinks = [
 ];
 export const headingLetters = ['V', 'A', 'N', 'L', 'I', 'F', 'E'];
 
-export const spanTexts = ['acation', 'bnormal', 'arrate', 'ife', 'n', 'ast', 'cstasy']
+export const spanTexts = ['enture', 'ccross', 'ature', 'ife', 't\'s', 'reedom', 'veryday']
 
 export const features = [
     {
@@ -76,18 +76,23 @@ export const feedback = [
 export const stats = [
     {
         id: "stats-1",
-        title: "User Active",
-        value: "3800+",
+        title: "Camper",
+        value: "1",
     },
     {
         id: "stats-2",
-        title: "Trusted by Company",
-        value: "230+",
+        title: "People",
+        value: "2",
     },
     {
         id: "stats-3",
-        title: "Transaction",
-        value: "$230M+",
+        title: "Countries",
+        value: "4",
+    },
+    {
+        id: "stats-3",
+        title: "Adventures",
+        value: "∞",
     },
 ];
 
