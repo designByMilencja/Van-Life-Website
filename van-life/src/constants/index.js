@@ -18,6 +18,9 @@ export const navLinks = [
         title: "Gallery",
     },
 ];
+export const headingLetters = ['V', 'A', 'N', 'L', 'I', 'F', 'E'];
+
+export const spanTexts = ['acation', 'bnormal', 'arrate', 'ife', 'n', 'ast', 'cstasy']
 
 export const features = [
     {
