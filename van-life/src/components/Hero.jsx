@@ -1,7 +1,55 @@
+'use client'
+import {useState, useEffect} from "react";
 import React from "react";
+import styles from "../style.js";
+import {dice, globe} from "../assets/index.js";
+
 const Hero = () => {
-    return (
-        <div>Header</div>
+    // const [showUnlockText, setShowUnlockText] = useState(true);
+    // useEffect(() => {
+    //     const timer = setTimeout(() => {
+    //         setShowUnlockText(false);
+    //     }, 4000);
+    //
+    //     return () => clearTimeout(timer);
+    // }, []);
+    return (<>
+            <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} h-[70vh] `}>
+                <div className={`flex-1 flex-col xl:px-0 sm:px-16 px-6`}>
+                    <div
+                        className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
+                        <img src={dice} alt="dice icon" className="w-[32px] h-[32px]"/>
+                        <p className={`${styles.paragraph} ml-2`}>You've just <span
+                            className="text-gradient">UNLOCKED</span> adventure!</p>
+                    </div>
+                    <div className="flex">
+                        <video autoPlay loop muted playsInline className="items-center">
+                            <source src={globe} type="video/mp4"/>
+                            Your browser does not support the video tag.
+                        </video>
+                        <div className="mt-[80px]">
+                            <div className=" w-[100%] h-[100%] relative z-[5] text-white hidden md:block ">
+                                <h2 className={`${styles.paragraph}`}>V<span className="fade-span tracking-widest"> acation </span></h2>
+                                <h2 className={`${styles.paragraph}`}>A<span className="fade-span tracking-widest"> bnormal </span></h2>
+                                <h2 className={`${styles.paragraph}`}>N<span className="fade-span tracking-widest"> arrate </span></h2>
+                                <br/>
+                                <h2 className={`${styles.paragraph}`}>L<span className="fade-span tracking-widest"> ife </span></h2>
+                                <h2 className={`${styles.paragraph}`}>I<span className="fade-span tracking-widest"> n </span></h2>
+                                <h2 className={`${styles.paragraph}`}>F<span className="fade-span tracking-widest"> ast </span></h2>
+                                <h2 className={`${styles.paragraph}`}>E<span className="fade-span tracking-widest"> cstasy </span></h2>
+                            </div>
+                                <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient"></div>
+                                <div className="absolute z-[1] w-[10%] h-[10%] rounded-full bottom-40 white__gradient"></div>
+                                <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20  blue__gradient"></div>
+                        </div>
+                    </div>
+                        <div className="flex flex-row justify-between items-center w-full text-center">
+                            <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">Welcome
+                                in <span className="text-gradient">OUR</span> world</h1>
+                        </div>
+                </div>
+            </section>
+        </>
     )
 }
 export default Hero
