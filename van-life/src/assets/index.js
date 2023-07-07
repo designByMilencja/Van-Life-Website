@@ -26,8 +26,14 @@ import people03 from "./people03.png";
 import plane from "./plane.svg";
 import earth from "./earth.svg";
 import planetOutline from "./planet-outline.svg";
+import balloon from "./balloon.svg";
+import dice from "./dice.svg";
+import globe from './globe.mp4';
 
 export {
+  globe,
+  dice,
+  balloon,
   planetOutline,
   earth,
   plane,
