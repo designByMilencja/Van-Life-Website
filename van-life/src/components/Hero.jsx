@@ -1,8 +1,8 @@
 'use client'
-import {useState, useEffect} from "react";
 import React from "react";
 import styles from "../style.js";
 import {dice, globe} from "../assets/index.js";
+import {headingLetters, spanTexts} from "../constants/index.js";
 
 const Hero = () => {
     // const [showUnlockText, setShowUnlockText] = useState(true);
@@ -29,14 +29,11 @@ const Hero = () => {
                         </video>
                         <div className="mt-[80px]">
                             <div className=" w-[100%] h-[100%] relative z-[5] text-white hidden md:block ">
-                                <h2 className={`${styles.paragraph}`}>V<span className="fade-span tracking-widest"> acation </span></h2>
-                                <h2 className={`${styles.paragraph}`}>A<span className="fade-span tracking-widest"> bnormal </span></h2>
-                                <h2 className={`${styles.paragraph}`}>N<span className="fade-span tracking-widest"> arrate </span></h2>
-                                <br/>
-                                <h2 className={`${styles.paragraph}`}>L<span className="fade-span tracking-widest"> ife </span></h2>
-                                <h2 className={`${styles.paragraph}`}>I<span className="fade-span tracking-widest"> n </span></h2>
-                                <h2 className={`${styles.paragraph}`}>F<span className="fade-span tracking-widest"> ast </span></h2>
-                                <h2 className={`${styles.paragraph}`}>E<span className="fade-span tracking-widest"> cstasy </span></h2>
+                                {headingLetters.map((letter, index)=> (
+                                    <h2 key={index} className={`${styles.paragraph}`}>
+                                        {letter}
+                                        <span className="fade-span tracking-widest"> {spanTexts[index]} </span></h2>
+                                ))}
                             </div>
                                 <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient"></div>
                                 <div className="absolute z-[1] w-[10%] h-[10%] rounded-full bottom-40 white__gradient"></div>
