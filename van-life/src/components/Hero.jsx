@@ -27,14 +27,13 @@ const Hero = () => {
                                         <span className="fade-span tracking-widest"> {spanTexts[index]} </span></h2>
                                 ))}
                             </div>
-                            <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient"></div>
-                            <div
-                                className="absolute z-[1] w-[10%] h-[10%] rounded-full bottom-40 white__gradient"></div>
-                            <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20  blue__gradient"></div>
+                            <div className="absolute z-[0] w-[40%] h-[15%] top-0 pink__gradient"></div>
+                            <div className="absolute z-[1] w-[10%] h-[20%] rounded-full bottom-40 white__gradient"></div>
+                            <div className="absolute z-[0] w-[20%] h-[70%] right-20 bottom-20  blue__gradient"></div>
                         </div>
                     </div>
-                    <div className="flex flex-row justify-between items-center w-full text-center">
-                        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">Welcome
+                    <div className="flex flex-row justify-between items-center w-full text-center ">
+                        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px] ">Welcome
                             in <span className="text-gradient">OUR</span> world</h1>
                     </div>
                 </div>
