@@ -1,8 +1,7 @@
 import Navbar from "./Navbar.jsx";
 import Hero from "./Hero.jsx";
 import Stats from "./Stats.jsx";
-import Business from "./Business.jsx";
-import Billing from "./Billing.jsx";
+import EntryTravel from "./EntryTravel.jsx";
 import CardDeal from "./CardDeal.jsx";
 import Testimonials from "./Testimonials.jsx";
 import Clients from "./Clients.jsx";
@@ -21,7 +20,6 @@ export {
     Clients,
     Testimonials,
     Stats,
-    Business,
-    Billing,
+    EntryTravel,
     CardDeal
 }
