@@ -9,7 +9,7 @@ const Navbar = () => {
             <a className="w-[124px] h-[32px]"><strong className="text-gradient font-mono cursor-pointer">Van Life</strong></a>
             <ul className="list-none sm:flex hidden justify-end items-center flex-1 ">
                 {navLinks.map((nav, index) => (<li key={nav.id}
-                                                   className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}>
+                                                   className={`hover:text-cyan-300 font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}>
                     <a href={`#$nav.id`}>{nav.title}</a></li>))}
             </ul>
             <div className="sm:hidden flex flex-1 justify-end items-center cursor-pointer">

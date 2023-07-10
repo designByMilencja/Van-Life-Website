@@ -1,12 +1,11 @@
 import React from "react";
-import style from "./style.js";
+import style from "./style";
 import {
     Navbar,
     Hero,
-    Billing,
+    EntryTravel,
     Footer,
     Clients,
-    Business,
     Stats,
     Testimonials,
     CardDeal,
@@ -17,7 +16,7 @@ import {
 
 const App = () => {
     return (
-        <div className="bg-primary w-full overflow-hidden">
+        <div className="bg-blend-multiply w-full overflow-hidden">
             <div className={`${style.paddingX} ${style.flexCenter}`}>
                 <div className={`${style.boxWidth}`}>
                     <Navbar/>
@@ -33,13 +32,12 @@ const App = () => {
             <div className={`bg-primary ${style.flexStart}`}>
                 <div className={`${style.boxWidth}`}>
                     <Stats/>
-                    <Business/>
-                    <Billing/>
+                    <AboutUs/>
+                    <EntryTravel/>
                     <CardDeal/>
                     <Testimonials/>
                     <Clients/>
                     <Footer/>
-                    <AboutUs/>
                     <Gallery/>
                     <Build/>
                 </div>

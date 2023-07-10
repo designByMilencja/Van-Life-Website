@@ -38,15 +38,16 @@ export const headingLetters = ['V', 'A', 'N', 'L', 'I', 'F', 'E'];
 export const spanTexts = ['enture', 'ccross', 'ature', 'ife', 't\'s', 'reedom', 'veryday']
 
 export const aboutUs = [
-    " We met, we dreamed, and together we finally embarked on a magical adventure." +
+    " Our home country is Poland. We met, we dreamed, and together we finally embarked on a magical adventure. " +
     "United by a passion for discovery," +
     " we fulfilled our shared dream of traveling. Over the two years, we built our own camper and began our journey in December 2022.",
     " Our camper is more than just a vehicle." +
-    " It is a symbol of our determination and the collective effort we have" +
-    " put into creating it." +
-    "Together we travel constantly new routes , enjoying every moment of this extraordinary journey.",
-    "Join us on this unique adventure as we discover the secrets of our planet, step by step.Together we will" +
-    " explore the world and create our own paths.Welcome to our exciting story full of passion and realization of dreams. Make yourself comfortable."
+    " It\'s a symbol of our determination and the collective effort we have" +
+    " put into creating it. " +
+    "Together we travel constantly new routes, enjoying every moment of this extraordinary journey.",
+    "Join us on this unique adventure as we discover the secrets of our planet, step by step. Together we will" +
+    " explore the world and create our own paths. Welcome to our exciting story full of passion and realization of" +
+    " dreams. Make yourself comfortable."
 ]
 
 export const features = [

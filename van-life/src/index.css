@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");*/
+
 
 @tailwind base;
 @tailwind components;
@@ -30,7 +31,7 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
+  /*background-clip: text;*/
   text-fill-color: transparent;
 }
 
@@ -137,4 +138,72 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.fade-span {
+    animation: fade-out 5s linear forwards;
+}
+
+.thunder::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    animation: thunders 5s ease-in 1;
+}
+
+@keyframes thunders {
+    0% {
+        transform: translateX(-100%);
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+    }
+    50% {
+        transform: translateX(-50%);
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+    }
+    50% {
+        transform: translateX(0%);
+        border-top: 2px solid #8f9b16;
+        border-bottom: 2px solid #8f9b16;
+    }
+    60% {
+        transform: translateX(+50%);
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+    }
+    90% {
+        transform: translateX(+100%);
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+    }
+    100% {
+        transform: translateX(+100%);
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+    }
+}
+
+.hovered {
+    transform: translateX(50px);
+    opacity: 0;
+}
+
+.transition-transform {
+    transition-property: transform, opacity;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
 }
