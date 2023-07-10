@@ -6,7 +6,7 @@ import {headingLetters, spanTexts} from "../constants/index.js";
 
 const Hero = () => {
     return (<>
-            <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} h-[70vh] `}>
+            <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} h-[65vh] `}>
                 <div className={`flex-1 flex-col xl:px-0 sm:px-16 px-6`}>
                     <div
                         className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
@@ -20,7 +20,7 @@ const Hero = () => {
                             Your browser does not support the video tag.
                         </video>
                         <div className="mt-[80px]">
-                            <div className=" w-[100%] h-[100%] relative z-[5] text-white hidden md:block ">
+                            <div className=" w-[100%] h-[100%] relative z-[5] hidden md:block ">
                                 {headingLetters.map((letter, index) => (
                                     <h2 key={index} className={`${styles.paragraph}`}>
                                         {letter}
