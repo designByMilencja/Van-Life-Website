@@ -11,9 +11,9 @@ const EntryTravel = () => {
             </h2>
             <div className="sm:flex m-4 ">
                 <p className={`${styles.paragraph} max-w-[470px] m-[50px] md:m-[80px] text-white`}>
-                    We started with the most accessible direction for van life, which is, of course, Spain. Winter in
-                    Poland is giving in and lasts almost half a year (maybe I exaggerated, but not much). First the
-                    continental part - the eastern coast, and then Tenerife and Gran Canaria.
+                    We started with the most accessible direction for van life, which is, of course, Spain. Because winter in
+                    Poland is giving in and lasts almost half a year (maybe I exaggerated, but not much) we choose warm, sunny direction.
+                    First the continental part - the eastern coast, and then Tenerife and Gran Canaria.
                 </p>
 
                 <ButtonRound textFirst="see" textSecond="more"/>
