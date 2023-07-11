@@ -4,14 +4,15 @@ import {
     Navbar,
     Hero,
     EntryTravel,
-    Footer,
     Clients,
     Stats,
     Testimonials,
     CardDeal,
     AboutUs,
     Build,
-    Gallery
+    Gallery,
+    Footer,
+    Contact
 } from "./components";
 
 const App = () => {
@@ -34,6 +35,7 @@ const App = () => {
                     <Stats/>
                     <AboutUs/>
                     <EntryTravel/>
+                    <Contact/>
                     <CardDeal/>
                     <Testimonials/>
                     <Clients/>
