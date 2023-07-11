@@ -7,8 +7,8 @@ export const Contact = () => {
     return (
         <section id="contacts" className={`${layout.section}`}>
             <div className={`flex-1 flex ${styles.flexCenter} md:ml-10 m-5 md:mt-0 mt-10 relative flex-row`}>
-                {contacts.map((contact, index) => (
-                    <ContactCard key={contact.id} icon={contact.icon} title={contact.title} index={index} />))}
+                {contacts.map((contact) => (
+                    <ContactCard key={contact.id} icon={contact.icon} title={contact.title}/>))}
             </div>
         </section>
 )
