@@ -1,7 +1,6 @@
 import React from "react";
 import style from "./style";
 import {
-    Navbar,
     Hero,
     EntryTravel,
     Clients,
@@ -11,19 +10,18 @@ import {
     AboutUs,
     Build,
     Gallery,
-    Footer,
-    Contact
 } from "./components";
+import NavbarView from "./pages/Views/NavbarView.jsx";
+import {ContactView, FooterView} from "./pages/Views/index.js";
 
 const App = () => {
     return (
         <div className="bg-blend-multiply w-full overflow-hidden">
             <div className={`${style.paddingX} ${style.flexCenter}`}>
                 <div className={`${style.boxWidth}`}>
-                    <Navbar/>
+                    <NavbarView/>
                 </div>
             </div>
-
             <div className={`bg-primary ${style.flexStart}`}>
                 <div className={`${style.boxWidth}`}>
                     <Hero/>
@@ -35,11 +33,11 @@ const App = () => {
                     <Stats/>
                     <AboutUs/>
                     <EntryTravel/>
-                    <Contact/>
+                    <ContactView/>
                     <CardDeal/>
                     <Testimonials/>
                     <Clients/>
-                    <Footer/>
+                    <FooterView/>
                     <Gallery/>
                     <Build/>
                 </div>
