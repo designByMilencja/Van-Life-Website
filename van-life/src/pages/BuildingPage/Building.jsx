@@ -1,8 +1,7 @@
 import React from "react";
 import style from "../../style.js";
-import {ContactView, FooterView, NavbarView} from "../Views/index.js";
+import {ContactView, FooterView, HeaderView, NavbarView} from "../Views/index.js";
 import {Build} from "../../components/index.js";
-
 
 
 const Building = () => {
@@ -13,6 +12,8 @@ const Building = () => {
                     <NavbarView/>
                 </div>
             </div>
+            <HeaderView/>
+
             <div className={`bg-primary ${style.flexStart}`}>
                 <div className={`${style.boxWidth}`}>
                     <Build/>
