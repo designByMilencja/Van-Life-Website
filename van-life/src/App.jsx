@@ -1,50 +1,18 @@
 import React from "react";
-import style from "./style";
-import {
-    Navbar,
-    Hero,
-    EntryTravel,
-    Clients,
-    Stats,
-    Testimonials,
-    CardDeal,
-    AboutUs,
-    Build,
-    Gallery,
-    Footer,
-    Contact
-} from "./components";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import Home from "./pages/HomePage/Home.jsx";
+import Building from "./pages/BuildingPage/Building.jsx";
+
 
 const App = () => {
     return (
-        <div className="bg-blend-multiply w-full overflow-hidden">
-            <div className={`${style.paddingX} ${style.flexCenter}`}>
-                <div className={`${style.boxWidth}`}>
-                    <Navbar/>
-                </div>
-            </div>
+        <Router>
+            <Routes>
+                <Route exact path="/" element={<Home />} />
+                <Route exact path="/building" element={<Building />} />
+            </Routes>
+        </Router>
+    );
+};
 
-            <div className={`bg-primary ${style.flexStart}`}>
-                <div className={`${style.boxWidth}`}>
-                    <Hero/>
-                </div>
-            </div>
-
-            <div className={`bg-primary ${style.flexStart}`}>
-                <div className={`${style.boxWidth}`}>
-                    <Stats/>
-                    <AboutUs/>
-                    <EntryTravel/>
-                    <Contact/>
-                    <CardDeal/>
-                    <Testimonials/>
-                    <Clients/>
-                    <Footer/>
-                    <Gallery/>
-                    <Build/>
-                </div>
-            </div>
-        </div>
-    )
-}
-export default App
+export default App;

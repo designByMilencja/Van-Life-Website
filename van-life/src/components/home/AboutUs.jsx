@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
-import {aboutUs} from "../constants/index.js";
-import {isElementInViewport} from "../utils/scroll.js";
+import {aboutUs} from "../../constants/index.js";
+import {isElementInViewport} from "../../utils/scroll.js";
 
 const AboutUs = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -14,7 +14,7 @@ const AboutUs = () => {
         window.addEventListener("scroll", handleScroll);
     }, []);
     return (
-        <div id="aboutUs" className="w-full h-[100%] mt-8 bg-gradient-to-r from-cyan-600 via-blue-900 rounded-lg">
+        <div id="aboutUs" className="w-full h-[100%] mt-8 md:my-[100px] footer rounded-lg">
             <div className=" w-[100%] h-[100%]">
                 <div className="flex justify-center items-center flex-col sm:flex-row">
                     <div className="flex flex-col justify-center items-center mt-8">
@@ -23,7 +23,7 @@ const AboutUs = () => {
                            We are</span>
                         </div>
                         <div className="flex justify-center items-center relative">
-                            <img className="max-h-[300px] min-w-[200px] p-4" src="/we.png" alt="profile photo"/>
+                            <img className="max-h-[300px] min-w-[200px] p-4" src="/van-life/public/we.png" alt="profile photo"/>
                             {isVisible && (
                                 <div className="thunder"></div>
                             )}

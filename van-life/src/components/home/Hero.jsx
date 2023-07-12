@@ -1,19 +1,15 @@
 'use client'
 import React from "react";
-import styles from "../style.js";
-import {dice, globe} from "../assets/index.js";
-import {headingLetters, spanTexts} from "../constants/index.js";
+import styles from "../../style.js";
+import {dice, globe} from "../../assets/index.js";
+import {headingLetters, spanTexts} from "../../constants/index.js";
+import {Subheading} from "../common/Subheading.jsx";
 
 const Hero = () => {
     return (<>
             <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} h-[65vh] `}>
                 <div className={`flex-1 flex-col xl:px-0 sm:px-16 px-6`}>
-                    <div
-                        className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
-                        <img src={dice} alt="dice icon" className="w-[32px] h-[32px]"/>
-                        <p className={`${styles.paragraph} ml-2`}>You've just <span
-                            className="text-gradient">UNLOCKED</span> adventure!</p>
-                    </div>
+                    <Subheading icon={dice} alt="icon dice" firstText="You've just" importantText="UNLOCKED" secondText="adventure!"/>
                     <div className="flex">
                         <video autoPlay loop muted playsInline className="items-center">
                             <source src={globe} type="video/mp4"/>
@@ -27,14 +23,14 @@ const Hero = () => {
                                         <span className="fade-span tracking-widest"> {spanTexts[index]} </span></h2>
                                 ))}
                             </div>
-                            <div className="absolute z-[0] w-[40%] h-[15%] top-0 pink__gradient"></div>
+                            <div className="absolute z-[0] w-[40%] h-[15%] top-40 pink__gradient"></div>
                             <div className="absolute z-[1] w-[10%] h-[20%] rounded-full bottom-40 white__gradient"></div>
                             <div className="absolute z-[0] w-[20%] h-[70%] right-20 bottom-20  blue__gradient"></div>
                         </div>
                     </div>
                     <div className="flex flex-row justify-between items-center w-full text-center ">
                         <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px] ">Welcome
-                            in <span className="text-gradient">OUR</span> world</h1>
+                            in <span className="text-gradient">OUR</span> world...</h1>
                     </div>
                 </div>
             </section>
