@@ -207,3 +207,8 @@
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
 }
+
+.footer {
+    background: var(--black-gradient);
+    box-shadow: var(--card-shadow);
+}
