@@ -1,7 +1,7 @@
 import React from "react";
 const FooterView = () => {
     return (
-        <div className="flex flex-row p-6 rounded-[20px] footer">
+        <div className="flex flex-row p-6 rounded-[20px] footer mt-5">
         <p className="w-full text-white text-center">Website made by me: <span className="text-gradient ml-2">DesignByMilencja</span> </p>
         </div>
     )
