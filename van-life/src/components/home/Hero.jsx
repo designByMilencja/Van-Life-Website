@@ -16,11 +16,11 @@ const Hero = () => {
                             Your browser does not support the video tag.
                         </video>
                         <div className="mt-[80px]">
-                            <div className=" w-[100%] h-[100%] relative z-[5] hidden md:block ">
+                            <div className=" w-[100%] h-[100%] relative z-[5] hidden md:block ml-[100px] ">
                                 {headingLetters.map((letter, index) => (
-                                    <h2 key={index} className={`${styles.paragraph}`}>
+                                    <p key={index} className="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]">
                                         {letter}
-                                        <span className="fade-span tracking-widest"> {spanTexts[index]} </span></h2>
+                                        <span className="fade-span font-poppins font-normal leading-[30.8px] p-1 text-white text-lg tracking-wider"> {spanTexts[index]} </span></p>
                                 ))}
                             </div>
                             <div className="absolute z-[0] w-[40%] h-[15%] top-40 pink__gradient"></div>
