@@ -19,8 +19,12 @@ export const navLinks = [
         title: "Travel",
     },
     {
-        id: "contact",
+        id: "gallery",
         title: "Gallery",
+    },
+    {
+        id: "contact",
+        title: "Contact",
     },
 ];
 export const headingLetters = ['V', 'A', 'N', 'L', 'I', 'F', 'E'];
