@@ -10,8 +10,10 @@ import hammer from './hammer.svg';
 import globe from './globe.mp4';
 import buildHome from './buildHome.mp4';
 import palmCamp from './palmCamp.jpg';
+import construction from './construction.jpg'
 
 export {
+    construction,
     palmCamp,
     buildHome,
     hammer,
