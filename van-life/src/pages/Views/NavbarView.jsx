@@ -13,7 +13,7 @@ const NavbarView = () => {
                 {navLinks.map((nav, index) => (
                     <li key={nav.id}
                         className={`hover:text-cyan-300 font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}>
-                        <Link to={nav.id}>{nav.title}</Link>
+                        <Link to={`/${nav.id}`}>{nav.title}</Link>
                     </li>))}
             </ul>
             <div className="sm:hidden flex flex-1 justify-end items-center cursor-pointer">
@@ -26,7 +26,7 @@ const NavbarView = () => {
                         {navLinks.map((nav, index) => (
                             <li key={nav.id}
                                 className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white`}>
-                                <Link to={nav.id}>{nav.title}</Link></li>))}
+                                <Link to={`/${nav.id}`}>{nav.title}</Link></li>))}
                     </ul>
                 </div>
             </div>
