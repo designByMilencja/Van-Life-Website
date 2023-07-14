@@ -6,9 +6,9 @@ import logoFacebook from './contact/logoFacebook.svg';
 import logoInstagram from './contact/logoInstagram.svg';
 import logoEmail from './contact/mail.svg';
 import logoLinkedin from './contact/logoLinkedin.svg';
-import hammer from './hammer.svg';
+import hammer from './icons/hammer.svg';
 import globe from './hero/globe.mp4';
-import palmCamp from './palmCamp.jpg';
+import palmCamp from './hero/palmCamp.jpg';
 import construction from './hero/construction.jpg'
 
 export {
