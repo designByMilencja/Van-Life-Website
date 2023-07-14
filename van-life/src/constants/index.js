@@ -1,47 +1,99 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+    logoFacebook,
+    logoInstagram,
+    logoEmail,
+    logoLinkedin,
+} from "../assets";
 
 export const navLinks = [
     {
-        id: "home",
+        id: "",
         title: "Home",
     },
     {
-        id: "features",
-        title: "Features",
+        id: "building",
+        title: "Building",
     },
     {
-        id: "product",
-        title: "Product",
+        id: "travel",
+        title: "Travel",
     },
     {
-        id: "clients",
-        title: "Clients",
+        id: "gallery",
+        title: "Gallery",
+    },
+    {
+        id: "contact",
+        title: "Contact",
+    },
+];
+export const headingLetters = ['V', 'A', 'N', 'L', 'I', 'F', 'E'];
+
+export const spanTexts = ['enture', 'ccross', 'ature', 'ife', 't\'s', 'reedom', 'veryday']
+
+export const aboutUs = [
+    " Our home country is Poland. We met, we dreamed, and together we finally embarked on a magical adventure. " +
+    "United by a passion for discovery," +
+    " we fulfilled our shared dream of traveling. Over the two years, we built our own camper and began our journey in December 2022.",
+    " Our camper is more than just a vehicle." +
+    " It\'s a symbol of our determination and the collective effort we have" +
+    " put into creating it. " +
+    "Together we travel constantly new routes, enjoying every moment of this extraordinary journey.",
+    "Join us on this unique adventure as we discover the secrets of our planet, step by step. Together we will" +
+    " explore the world and create our own paths. Welcome to our exciting story full of passion and realization of" +
+    " dreams. Make yourself comfortable."
+]
+
+export const contacts = [
+    {
+        id: "contact-1",
+        icon: logoFacebook,
+        title: "facebook",
+        href: "https://www.facebook.com/",
+    },
+    {
+        id: "contact-2",
+        icon: logoInstagram,
+        title: "instagram",
+        href: "https://www.instagram.com/",
+    },
+    {
+        id: "contact-3",
+        icon: logoEmail,
+        title: "email",
+        content: "",
+    },
+    {
+        id: "contact-4",
+        icon: logoLinkedin,
+        title: "linkedin",
+        content: "https://www.linkedin.com/in/milenapienkosz/",
     },
 ];
 
-export const features = [
+export const stats = [
     {
-        id: "feature-1",
-        icon: star,
-        title: "Rewards",
-        content:
-            "The best credit cards offer some tantalizing combinations of promotions and prizes",
+        id: "stats-1",
+        title: "Camper",
+        value: "1",
     },
     {
-        id: "feature-2",
-        icon: shield,
-        title: "100% Secured",
-        content:
-            "We take proactive steps make sure your information and transactions are secure.",
+        id: "stats-2",
+        title: "People",
+        value: "2",
     },
     {
-        id: "feature-3",
-        icon: send,
-        title: "Balance Transfer",
-        content:
-            "A balance transfer credit card can save you a lot of money in interest charges.",
+        id: "stats-3",
+        title: "Countries",
+        value: "4",
+    },
+    {
+        id: "stats-4",
+        title: "Adventures",
+        value: "∞",
     },
 ];
+
 
 export const feedback = [
     {
@@ -50,7 +102,6 @@ export const feedback = [
             "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
         name: "Herman Jensen",
         title: "Founder & Leader",
-        img: people01,
     },
     {
         id: "feedback-2",
@@ -58,7 +109,6 @@ export const feedback = [
             "Money makes your life easier. If you're lucky to have it, you're lucky.",
         name: "Steve Mark",
         title: "Founder & Leader",
-        img: people02,
     },
     {
         id: "feedback-3",
@@ -66,25 +116,6 @@ export const feedback = [
             "It is usually people in the money business, finance, and international trade that are really rich.",
         name: "Kenn Gallagher",
         title: "Founder & Leader",
-        img: people03,
-    },
-];
-
-export const stats = [
-    {
-        id: "stats-1",
-        title: "User Active",
-        value: "3800+",
-    },
-    {
-        id: "stats-2",
-        title: "Trusted by Company",
-        value: "230+",
-    },
-    {
-        id: "stats-3",
-        title: "Transaction",
-        value: "$230M+",
     },
 ];
 
@@ -157,22 +188,17 @@ export const footerLinks = [
 export const socialMedia = [
     {
         id: "social-media-1",
-        icon: instagram,
+        icon: logoInstagram,
         link: "https://www.instagram.com/",
     },
     {
         id: "social-media-2",
-        icon: facebook,
+        icon: logoFacebook,
         link: "https://www.facebook.com/",
     },
     {
         id: "social-media-3",
-        icon: twitter,
-        link: "https://www.twitter.com/",
-    },
-    {
-        id: "social-media-4",
-        icon: linkedin,
+        icon: logoLinkedin,
         link: "https://www.linkedin.com/",
     },
 ];
@@ -180,18 +206,16 @@ export const socialMedia = [
 export const clients = [
     {
         id: "client-1",
-        logo: airbnb,
     },
     {
         id: "client-2",
-        logo: binance,
+
     },
     {
         id: "client-3",
-        logo: coinbase,
+
     },
     {
         id: "client-4",
-        logo: dropbox,
     },
 ];
