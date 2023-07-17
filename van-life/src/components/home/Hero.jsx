@@ -1,9 +1,9 @@
-'use client'
 import React from "react";
 import styles from "../../style.js";
 import {dice, globe} from "../../assets/index.js";
 import {headingLetters, spanTexts} from "../../constants/index.js";
 import {Subheading} from "../common/Subheading.jsx";
+import HeadingOne from "../common/HeadingOne.jsx";
 
 const Hero = () => {
     return (<>
@@ -28,10 +28,8 @@ const Hero = () => {
                             <div className="absolute z-[0] w-[20%] h-[70%] right-20 bottom-20  blue__gradient"></div>
                         </div>
                     </div>
-                    <div className="flex flex-row justify-between items-center w-full text-center ">
-                        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px] ">Welcome
-                            in <span className="text-gradient">OUR</span> world...</h1>
-                    </div>
+                    <HeadingOne textOne="Welcome
+                            in" textStrong="OUR" textSecond="world..."/>
                 </div>
             </section>
         </>
