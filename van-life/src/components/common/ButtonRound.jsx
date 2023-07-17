@@ -1,8 +1,9 @@
 import styles from "../../style.js";
 import {plane} from "../../assets/index.js";
-import {useState} from "react";
+import React, {useState} from "react";
+import {Link} from "react-router-dom";
 
-export const ButtonRound = ({textFirst, textSecond}) => {
+export const ButtonRound = ({textFirst, textSecond, url}) => {
     const [isHovered, setIsHovered] = useState(false);
 
     const handleMouseEnter = () => {
@@ -12,7 +13,9 @@ export const ButtonRound = ({textFirst, textSecond}) => {
     const handleMouseLeave = () => {
         setIsHovered(false);
     };
+
     return (
+        <Link to={url}>
         <div
             className={`${styles.flexCenter} w-[140px] min-w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}
             onMouseEnter={handleMouseEnter}
@@ -31,5 +34,6 @@ export const ButtonRound = ({textFirst, textSecond}) => {
                 </p>
             </div>
         </div>
+        </Link>
     )
 }
