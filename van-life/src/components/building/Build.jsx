@@ -1,7 +1,7 @@
 import React from "react";
 import {Carousel} from "react-responsive-carousel";
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import styles from "../style.js";
+import styles from "../../style.js";
 
 const Build = () => {
     return (<>
