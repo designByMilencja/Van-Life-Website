@@ -3,6 +3,7 @@ import style from "../../style.js";
 import {ContactView, FooterView, NavbarView} from "../Views/index.js";
 import HeaderTravelling from "../../components/travelling/HeaderTravelling.jsx";
 import Travel from "../../components/travelling/Travel.jsx";
+import InstagramEntry from "../../components/travelling/InstagramEntry.jsx";
 
 const Travelling = () => {
     return (
@@ -20,6 +21,7 @@ const Travelling = () => {
 
             <div className={`bg-primary ${style.flexStart}`}>
                 <div className={`${style.boxWidth}`}>
+                    <InstagramEntry/>
                     <Travel/>
                     <ContactView/>
                     <FooterView/>
