@@ -2,6 +2,7 @@ import React from "react";
 import style from "../../style.js";
 import {ContactView, FooterView, NavbarView} from "../Views/index.js";
 import HeaderTravelling from "../../components/travelling/HeaderTravelling.jsx";
+import Travel from "../../components/travelling/Travel.jsx";
 
 const Travelling = () => {
     return (
@@ -19,6 +20,7 @@ const Travelling = () => {
 
             <div className={`bg-primary ${style.flexStart}`}>
                 <div className={`${style.boxWidth}`}>
+                    <Travel/>
                     <ContactView/>
                     <FooterView/>
                 </div>
