@@ -17,14 +17,14 @@ const AboutUs = () => {
         };
     }, []);
     return (
-        <section id="aboutUs" className="w-full h-[100%] mt-8 md:my-[100px] footer rounded-lg">
+        <section id="aboutUs" className="w-full h-[100%] mt-8 md:my-[100px] glass rounded-lg">
                 <div className="flex justify-center items-center flex-col sm:flex-row">
                     <div className="flex flex-col justify-center items-center mt-8">
                         <div className="text-2xl font-extrabold p-2">
                         <span className="text-white">
                            We are</span>
                         </div>
-                        <div className="flex justify-center items-center relative">
+                        <div className="flex justify-center items-center relative ">
                             <img className="max-h-[300px] min-w-[200px] p-4" src="/src/assets/bus/we/we.png" alt="profile photo"/>
                             {isVisible && (
                                 <div className="thunder"></div>
