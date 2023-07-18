@@ -2,7 +2,7 @@ import Hero from "./home/Hero.jsx";
 import Stats from "./home/Stats.jsx";
 import EntryTravel from "./home/EntryTravel.jsx";
 import CardDeal from "./CardDeal.jsx";
-import Testimonials from "./Testimonials.jsx";
+import TravelCard from "./travelling/TravelCard.jsx";
 import Clients from "./Clients.jsx";
 import AboutUs from "./home/AboutUs.jsx";
 import Build from "./building/Build.jsx";
@@ -14,7 +14,7 @@ export {
     Build,
     Gallery,
     Clients,
-    Testimonials,
+    TravelCard,
     Stats,
     EntryTravel,
     CardDeal

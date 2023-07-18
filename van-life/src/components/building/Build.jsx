@@ -6,7 +6,7 @@ import styles from "../../style.js";
 const Build = () => {
     return (<>
             <section id="build"
-                     className=" h-[100%] mt-[100px] ss:mt-[200px] sm:mt-[240px] md:mt-[200px] footer rounded-lg relative">
+                     className=" h-[100%] mt-[100px] ss:mt-[200px] sm:mt-[240px] md:mt-[200px] glass rounded-lg relative">
                 <div>
                     <h3 className="font-poppins font-semibold hover:animate-pulse xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-white pt-[30px] mx-2 md:mx-[50px]">Before
                         travelling</h3>
@@ -100,7 +100,7 @@ const Build = () => {
                     </div>
                 </div>
 
-                <div className="flex sm:flex-col md:flex-row justify-center items-center">
+                <div className="flex flex-col md:flex-row justify-center items-center">
                     <div className="ml-[80px] sm:mb-0 flex-col justify-center items-center p-4">
                         <Carousel className="p-2 text-white max-w-[500px]">
                             <div>
