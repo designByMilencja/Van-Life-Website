@@ -12,6 +12,9 @@ const AboutUs = () => {
         };
 
         window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
     }, []);
     return (
         <section id="aboutUs" className="w-full h-[100%] mt-8 md:my-[100px] footer rounded-lg">
