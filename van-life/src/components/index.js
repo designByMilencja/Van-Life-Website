@@ -6,7 +6,7 @@ import TravelCard from "./travelling/TravelCard.jsx";
 import Clients from "./Clients.jsx";
 import AboutUs from "./home/AboutUs.jsx";
 import Build from "./building/Build.jsx";
-import Gallery from "./Gallery.jsx";
+import Gallery from "./gallery/Gallery.jsx";
 
 export {
     Hero,
