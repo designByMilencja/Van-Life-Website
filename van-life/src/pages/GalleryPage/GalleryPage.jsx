@@ -2,6 +2,7 @@ import React from "react";
 import style from "../../style.js";
 import {ContactView, FooterView, NavbarView} from "../Views/index.js";
 import HeaderGallery from "../../components/gallery/HeaderGallery.jsx";
+import Images from "../../components/gallery/Images.jsx";
 
 const GalleryPage = () => {
     return (
@@ -19,7 +20,7 @@ const GalleryPage = () => {
 
             <div className={`bg-primary ${style.flexStart}`}>
                 <div className={`${style.boxWidth}`}>
-
+                    <Images/>
                     <ContactView/>
                     <FooterView/>
                 </div>
