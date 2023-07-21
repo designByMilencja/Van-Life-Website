@@ -1,7 +1,7 @@
 import style from "../../style.js";
 import {bus, palmCamp} from "../../assets/index.js";
 import OneImage from "./OneImage.jsx";
-import {useEffect, useState} from "react";
+import {useEffect, useRef, useState} from "react";
 
 const images = [{image: bus, date: "2022/20/01"}, {image: palmCamp, date: "2022/20/01"}, {
     image: palmCamp,
@@ -11,6 +11,8 @@ const Images = () => {
     const [click, setClick] = useState(false);
     const [clickedSrc, setClickedSrc] = useState('');
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const popupRef = useRef();
+
     const nextImage = () => {
         const nextIndex = (currentImageIndex + 1) % images.length;
         setClickedSrc(images[nextIndex].image);
@@ -22,19 +24,6 @@ const Images = () => {
         setClickedSrc(images[prevIndex].image);
         setCurrentImageIndex(prevIndex);
     };
-    useEffect(() => {
-        const handleKeyPress = (event) => {
-            if (event.keyCode === 37) {
-                prevImage();
-            } else if (event.keyCode === 39) {
-                nextImage();
-            }
-        };
-        document.addEventListener("keydown", handleKeyPress);
-        return () => {
-            document.removeEventListener("keydown", handleKeyPress);
-        };
-    }, [prevImage, nextImage]);
 
     const showPopUp = (src, index) => {
         setClick(true);
@@ -44,6 +33,31 @@ const Images = () => {
     const closePopUp = () => {
         setClick(false)
     }
+
+    useEffect(() => {
+        const handleKeyPress = (event) => {
+            if (event.keyCode === 37) {
+                prevImage();
+            } else if (event.keyCode === 39) {
+                nextImage();
+            } else if (event.keyCode === 27) {
+                closePopUp()
+            }
+        };
+        const handleOutsideClick = (event) => {
+            if (popupRef.current === event.target) {
+                closePopUp();
+            }
+        };
+        document.addEventListener("keydown", handleKeyPress);
+        document.addEventListener("click", handleOutsideClick);
+
+        return () => {
+            document.removeEventListener("keydown", handleKeyPress);
+            document.removeEventListener("click", handleOutsideClick);
+        };
+    }, [prevImage, nextImage, closePopUp]);
+
     return (
         <section id="images" className="flex flex-col justify-center items-center bg-gallery-gradient m-4 relative">
             <h2 className={`${style.heading2} p-4 mt-3`}>Spain 2022</h2>
@@ -57,7 +71,7 @@ const Images = () => {
                 }
             </ul>
             {click && (
-                <div className="popup">
+                <div ref={popupRef} className="popup">
                     <button className="arrow-btn text-gradient text-3xl p-2" onClick={prevImage}>
                         &lt;
                     </button>
