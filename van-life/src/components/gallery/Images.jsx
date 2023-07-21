@@ -1,7 +1,7 @@
 import style from "../../style.js";
 import {bus, palmCamp} from "../../assets/index.js";
 import OneImage from "./OneImage.jsx";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 const images = [{image: bus, date: "2022/20/01"}, {image: palmCamp, date: "2022/20/01"}, {
     image: palmCamp,
@@ -11,15 +11,6 @@ const Images = () => {
     const [click, setClick] = useState(false);
     const [clickedSrc, setClickedSrc] = useState('');
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-    const showPopUp = (src, index) => {
-        setClick(true);
-        setClickedSrc(src);
-        setCurrentImageIndex(index)
-    }
-    const closePopUp = () => {
-        setClick(false)
-    }
     const nextImage = () => {
         const nextIndex = (currentImageIndex + 1) % images.length;
         setClickedSrc(images[nextIndex].image);
@@ -31,6 +22,28 @@ const Images = () => {
         setClickedSrc(images[prevIndex].image);
         setCurrentImageIndex(prevIndex);
     };
+    useEffect(() => {
+        const handleKeyPress = (event) => {
+            if (event.keyCode === 37) {
+                prevImage();
+            } else if (event.keyCode === 39) {
+                nextImage();
+            }
+        };
+        document.addEventListener("keydown", handleKeyPress);
+        return () => {
+            document.removeEventListener("keydown", handleKeyPress);
+        };
+    }, [prevImage, nextImage]);
+
+    const showPopUp = (src, index) => {
+        setClick(true);
+        setClickedSrc(src);
+        setCurrentImageIndex(index)
+    }
+    const closePopUp = () => {
+        setClick(false)
+    }
     return (
         <section id="images" className="flex flex-col justify-center items-center bg-gallery-gradient m-4 relative">
             <h2 className={`${style.heading2} p-4 mt-3`}>Spain 2022</h2>
