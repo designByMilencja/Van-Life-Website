@@ -2,7 +2,7 @@ import {
     logoFacebook,
     logoInstagram,
     logoEmail,
-    logoLinkedin,
+    logoLinkedin, palmCamp,
 } from "../assets";
 
 export const navLinks = [
@@ -15,8 +15,8 @@ export const navLinks = [
         title: "Building",
     },
     {
-        id: "travel",
-        title: "Travel",
+        id: "travelling",
+        title: "Travelling",
     },
     {
         id: "gallery",
@@ -95,27 +95,30 @@ export const stats = [
 ];
 
 
-export const feedback = [
+export const travels = [
     {
-        id: "feedback-1",
+        id: "travel-1",
         content:
-            "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-        name: "Herman Jensen",
-        title: "Founder & Leader",
+            "Poland's Baltic coast, is one of the most beautiful places in the country, where the beauty of nature, fascinating history and friendly atmosphere meet. This is a place full of contrasts that will give you an unforgettable experience.",
+        name: "Poland",
+        title: "Baltic Sea 2022/07/06",
+        img: palmCamp,
     },
     {
-        id: "feedback-2",
+        id: "travel-2",
         content:
-            "Money makes your life easier. If you're lucky to have it, you're lucky.",
-        name: "Steve Mark",
-        title: "Founder & Leader",
+            "Imagine golden beaches, blue waves of the Mediterranean and spectacular views that will enchant your senses. This is the coast of mainland Spain, a place where magic meets history and adventure greets you at every turn.",
+        name: "Spain",
+        title: "Continental part 2022/12/13",
+        img: palmCamp,
     },
     {
-        id: "feedback-3",
+        id: "travel-3",
         content:
-            "It is usually people in the money business, finance, and international trade that are really rich.",
-        name: "Kenn Gallagher",
-        title: "Founder & Leader",
+            "The Canary Islands, a paradisaical archipelago that offers an extraordinary combination of natural beauty, a perfect climate and countless attractions. These Spanish islands, located in the Atlantic Ocean, will delight you with their white beaches, mysterious volcanoes and diverse landscapes.",
+        name: "Spain",
+        title: "Tenerife 2023/01/01",
+        img: palmCamp,
     },
 ];
 
