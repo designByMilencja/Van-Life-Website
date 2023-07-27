@@ -19,33 +19,33 @@ const Build = () => {
                     <div className="ml-[80px] sm:mb-0 flex-col justify-center items-center p-4">
                         <Carousel className="p-2 text-white max-w-[500px]">
                             <div>
-                                <img src="src/assets/bus/wojciech/w2.JPG" alt="planning men"/>
+                                <img src="src/assets/bus/wojciech/w2.JPG" alt="sitting and planning men"/>
                                 <p className="legend">Planning...</p>
                             </div>
 
                             <div>
                                 <img src="src/assets/bus/floor/IMG_4702.jpeg"
-                                     alt="side before gluing plywood on the floor"/>
+                                     alt="man gluing plywood on the floor"/>
                                 <p className="legend">Gluing plywood on the floor...</p>
                             </div>
 
                             <div>
-                                <img src="src/assets/bus/floor/IMG_4703.jpeg" alt="gluing plywood on the floor"/>
-                                <p className="legend">gluing plywood on the floor...</p>
+                                <img src="src/assets/bus/floor/IMG_4703.jpeg" alt="plywood flooring in the van"/>
+                                <p className="legend">Plywood flooring in the van ...</p>
                             </div>
 
                             <div>
                                 <img src="src/assets/bus/floor/IMG_4704.jpeg" alt="gluing plywood on the floor"/>
-                                <p className="legend">gluing plywood on the floor...</p>
+                                <p className="legend">A durable and natural finish...</p>
                             </div>
                             <div>
                                 <img src="src/assets/bus/floor/IMG_4705.jpeg" alt="gluing plywood on the floor"/>
-                                <p className="legend">gluing plywood on the floor...</p>
+                                <p className="legend">Bonded plywood as van flooring...</p>
                             </div>
 
                             <div>
                                 <img src="src/assets/bus/floor/IMG_4706.jpeg" alt="finish gluing plywood on the floor"/>
-                                <p className="legend">finish gluing plywood on the floor</p>
+                                <p className="legend">A solid foundation...</p>
                             </div>
                         </Carousel>
                         <div className="p-[30px]">
@@ -68,33 +68,33 @@ const Build = () => {
                             <div>
                                 <img className="py-2" src="src/assets/bus/products/IMG_4690.jpeg"
                                      alt="product for remove rust"/>
-                                <p className="legend">Remove rust...</p>
+                                <p className="legend">Powerful rust removal solutions...</p>
                             </div>
 
                             <div>
-                                <img className="py-2" src="src/assets/bus/rust/before1.jpeg" alt="rust"/>
-                                <p className="legend">Rust...</p>
+                                <img className="py-2" src="src/assets/bus/rust/before1.jpeg" alt="rust on the floor of camper van"/>
+                                <p className="legend">Difficult battle with rust ...</p>
                             </div>
 
                             <div>
-                                <img className="py-2" src="src/assets/bus/rust/before2.jpeg" alt="rust"/>
-                                <p className="legend">Rust...</p>
+                                <img className="py-2" src="src/assets/bus/rust/before2.jpeg" alt="rust on the floor of camper van"/>
+                                <p className="legend">Safe and efficient rust removal ...</p>
                             </div>
 
                             <div>
-                                <img className="py-2" src="src/assets/bus/rust/inProgress1.jpeg" alt="rust"/>
-                                <p className="legend">Rust...</p>
+                                <img className="py-2" src="src/assets/bus/rust/inProgress1.jpeg" alt="half of the floor free of rust"/>
+                                <p className="legend">Before and after effect...</p>
                             </div>
 
                             <div>
                                 <img className="py-2" src="src/assets/bus/painting/IMG_4683.jpeg"
-                                     alt="chair before painting"/>
-                                <p className="legend">Side before painting </p>
+                                     alt="chair inside elements"/>
+                                <p className="legend">car chair before painting inside... </p>
                             </div>
                             <div>
                                 <img className="py-2" src="src/assets/bus/painting/IMG_4681.jpeg"
-                                     alt="chair before painting"/>
-                                <p className="legend">Side before painting </p>
+                                     alt="chair elements before painting"/>
+                                <p className="legend">car chair before painting outside... </p>
                             </div>
                         </Carousel>
                     </div>
@@ -104,16 +104,16 @@ const Build = () => {
                     <div className="ml-[80px] sm:mb-0 flex-col justify-center items-center p-4">
                         <Carousel className="p-2 text-white max-w-[500px]">
                             <div>
-                                <img className="py-2" src="src/assets/bus/cut/tyl.JPG" alt="Image 1"/>
-                                <p className="legend">Image 1</p>
+                                <img className="py-2" src="src/assets/bus/cut/tyl.JPG" alt="back view when we cut window"/>
+                                <p className="legend">Back view with the roof window cut out...</p>
                             </div>
                             <div>
-                                <img className="py-2" src="src/assets/bus/cut/IMG_4913.jpeg" alt="Image 2"/>
-                                <p className="legend">Image 2</p>
+                                <img className="py-2" src="src/assets/bus/cut/IMG_4913.jpeg" alt="cut large roof window in the end of the wall"/>
+                                <p className="legend">Cut large roof window...</p>
                             </div>
                             <div>
-                                <img className="py-2" src="src/assets/bus/cut/IMG_4915.jpeg" alt="planning men"/>
-                                <p className="legend">Planning...</p>
+                                <img className="py-2" src="src/assets/bus/cut/IMG_4915.jpeg" alt="cut window in the middle of the wall"/>
+                                <p className="legend">Cut small roof window with windmill...</p>
                             </div>
                         </Carousel>
                         <div className="p-[30px]">
@@ -133,24 +133,24 @@ const Build = () => {
                         </div>
                         <Carousel className="p-2 max-w-[500px]">
                             <div>
-                                <img className="py-2" src="src/assets/bus/wood/wood.JPG" alt="Image 1"/>
-                                <p className="legend">Image 1</p>
+                                <img className="py-2" src="src/assets/bus/wood/wood.JPG" alt="carpentry shop - source of materials"/>
+                                <p className="legend">Carpentry shop where we sourced materials</p>
                             </div>
                             <div>
-                                <img className="py-2" src="src/assets/bus/furniture/IMG_5214.JPG" alt="Image 2"/>
-                                <p className="legend">Image 2</p>
+                                <img className="py-2" src="src/assets/bus/furniture/IMG_5214.JPG" alt="front frame of kitchen"/>
+                                <p className="legend">front of kitchen with furniture frame</p>
                             </div>
                             <div>
-                                <img className="py-2" src="src/assets/bus/furniture/IMG_5215.JPG" alt="planning men"/>
-                                <p className="legend">Planning...</p>
+                                <img className="py-2" src="src/assets/bus/furniture/IMG_5215.JPG" alt="furniture frame"/>
+                                <p className="legend">View of furniture - kitchen and bathroom frame...</p>
                             </div>
                             <div>
-                                <img className="py-2" src="src/assets/bus/furniture/IMG_5216.JPG" alt="planning men"/>
-                                <p className="legend">Planning...</p>
+                                <img className="py-2" src="src/assets/bus/furniture/IMG_5216.JPG" alt="view frame of furniture in our future bedroom"/>
+                                <p className="legend">View of back our bedroom...</p>
                             </div>
                             <div>
-                                <img className="py-2" src="src/assets/bus/alufox/bok.JPG" alt="planning men"/>
-                                <p className="legend">Pl...</p>
+                                <img className="py-2" src="src/assets/bus/alufox/bok.JPG" alt="back view of camper with cut side window"/>
+                                <p className="legend">side of camper with plywood and cut out side window...</p>
                             </div>
                         </Carousel>
                     </div>
