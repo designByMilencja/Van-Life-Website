@@ -13,19 +13,4 @@ import g12 from './g12.png';
 import f29 from './f29.png';
 import f30 from './f30.png';
 
-export {
-    g1,
-    g2,
-    g3,
-    g4,
-    g5,
-    g6,
-    g7,
-    g8,
-    g9,
-    g10,
-    g11,
-    g12,
-    f30,
-    f29
-}
+export {g1, g2, g3, g4, g5, g6, g7, g8, g9, g10, g11, g12, f30, f29}

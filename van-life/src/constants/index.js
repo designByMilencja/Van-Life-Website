@@ -1,28 +1,10 @@
-import {
-    logoFacebook,
-    logoInstagram,
-    logoEmail,
-    logoLinkedin, palmCamp,
+import { logoFacebook, logoInstagram, logoEmail, logoLinkedin, palmCamp,
 } from "../assets";
 import {f29, f30, g1, g10, g11, g12, g2, g3, g4, g5, g6, g7, g8, g9} from "../assets/spain2023/index.js";
-import {
-    f1,
-    f11,
-    f2,
-    f4,
-    f6,
-    f7,
-    f8,
-    f9,
-    f3,
-    f13,
-    f14,
-    f15,
-    f16,
-    f17,
-    f18,
-    f19, f20, f23, f24, f25, f26, f27, f28,
-} from "../assets/france2023/index.js";
+import
+{ f1, f11, f2, f4, f6, f7, f8, f9, f3, f13, f14, f15, f16, f17, f18, f19, f20, f23, f24, f25, f26, f27, f28 }
+    from "../assets/france2023/index.js";
+import {e1, e2, e3, e4, e5} from "../assets/germany2023/index.js";
 
 export const navLinks = [
     {
@@ -168,7 +150,7 @@ export const spain2022 = [
         image: palmCamp,
         desc: "to jest polska",
         date: "2022/02/22",
-    },    {
+    }, {
         image: palmCamp,
         desc: "to jest polska",
         date: "2022/02/22",
@@ -220,17 +202,17 @@ export const spain2023 = [
     {
         image: g10,
         desc: "sunset view of the ocean with a white crescent wall",
-    },    {
+    }, {
         image: g11,
         desc: "a street of white houses with a sky of pink clouds",
-    },    {
+    }, {
         image: g12,
         desc: "beach with a section of beach bar with straw umbrellas",
     },
     {
         image: f29,
         desc: "two small birds sitting on a rock by the water",
-    },   {
+    }, {
         image: f30,
         desc: "a flock of bright pink flamingos in a green clearing",
     },
@@ -277,37 +259,37 @@ export const france2023 = [
     {
         image: f13,
         desc: "view of the cathedral across the street",
-    },    {
+    }, {
         image: f14,
         desc: "a view of the massive building in the distance beyond the river and greenery",
-    },    {
+    }, {
         image: f15,
         desc: "a view of a French townhouse with interesting balconies",
-    },    {
+    }, {
         image: f16,
         desc: "semi-circular entrance to the hotel, with a sculpture of a woman with a vase on her head placed in the background",
-    },    {
+    }, {
         image: f17,
         desc: "a passageway for writers leading to an interesting townhouse",
-    },    {
+    }, {
         image: f18,
         desc: "massive gray building with interesting decorations",
-    },    {
+    }, {
         image: f19,
         desc: "a fragment of a bus shelter with the outlines of the old town drawn on it",
-    },    {
+    }, {
         image: f20,
         desc: "front of tenement house with huge lvov rows",
-    },  {
+    }, {
         image: f23,
         desc: "picturesque buildingscape in salzburg with lattice style",
-    },   {
+    }, {
         image: f24,
         desc: "wooden tall building against a light blue sky",
-    },   {
+    }, {
         image: f25,
         desc: "a bridge with logs attached to it and a wide building behind it",
-    },   {
+    }, {
         image: f26,
         desc: "building with ivy overgrowing it",
     },
@@ -318,6 +300,27 @@ export const france2023 = [
     {
         image: f28,
         desc: "a view of a street surrounded by colorful townhouses",
+    },
+];
+
+export const germany2023 = [
+    {
+        image: e1,
+        desc: "wartburg castle on a hill",
+        title: "Germany 2023"
+    },
+    {
+        image: e2,
+        desc: "metal bas-relief depicting model of a castle",
+    },{
+        image: e3,
+        desc: "black plan of wartburg castle",
+    },{
+        image: e4,
+        desc: "a sculpture on a bench depicting bread and on it a cut rose",
+    },{
+        image: e5,
+        desc: "a yellow food truck with delicious German sausages",
     },
 ];
 
