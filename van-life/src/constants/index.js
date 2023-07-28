@@ -1,6 +1,25 @@
 import { logoFacebook, logoInstagram, logoEmail, logoLinkedin, palmCamp,
 } from "../assets";
-import {f29, f30, g1, g10, g11, g12, g2, g3, g4, g5, g6, g7, g8, g9} from "../assets/spain2023/index.js";
+import {
+    f29,
+    f30,
+    g1,
+    g10,
+    g11,
+    g12,
+    g13,
+    g14,
+    g15,
+    g16, g17, g18, g19,
+    g2,
+    g3,
+    g4,
+    g5,
+    g6,
+    g7,
+    g8,
+    g9
+} from "../assets/spain2023/index.js";
 import
 { f1, f11, f2, f4, f6, f7, f8, f9, f3, f13, f14, f15, f16, f17, f18, f19, f20, f23, f24, f25, f26, f27, f28 }
     from "../assets/france2023/index.js";
@@ -207,6 +226,28 @@ export const spain2023 = [
         desc: "a street of white houses with a sky of pink clouds",
     }, {
         image: g12,
+        desc: "beach with a section of beach bar with straw umbrellas",
+    }, {
+        image: g13,
+        desc: "beach with a section of beach bar with straw umbrellas",
+    }, {
+        image: g14,
+        desc: "beach with a section of beach bar with straw umbrellas",
+    }, {
+        image: g15,
+        desc: "beach with a section of beach bar with straw umbrellas",
+    }, {
+        image: g16,
+        desc: "beach with a section of beach bar with straw umbrellas",
+    }, {
+        image: g17,
+        desc: "beach with a section of beach bar with straw umbrellas",
+    }, {
+        image: g18,
+        desc: "beach with a section of beach bar with straw umbrellas",
+    },
+    {
+        image: g19,
         desc: "beach with a section of beach bar with straw umbrellas",
     },
     {
