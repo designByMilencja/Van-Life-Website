@@ -286,3 +286,6 @@
     text-transform: uppercase;
     letter-spacing: 8px;
 }
+.active {
+   border: #30d9de 2px solid;
+}

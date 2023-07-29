@@ -7,7 +7,7 @@ import HeadingOne from "../common/HeadingOne.jsx";
 const HeaderGallery = () => {
     return (
         <section className={`flex md:flex-row flex-col ${styles.paddingY} h-45vh] w-full `}>
-            <div className={`flex-1 flex-col xl:px-0 sm:px-16 px-6`}>
+            <div className={`flex-1 flex-col xl:px-0 sm:px-16 px-6 mb-[150px]`}>
                 <Subheading icon={plane} alt="icon plane" firstText="Here you are!" importantText="IN OUR" secondText="gallery!"/>
                 <div className="flex sm:flex-row flex-col">
                     <div className="mt-[80px]">
