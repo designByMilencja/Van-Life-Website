@@ -378,3 +378,12 @@ export const germany2023 = [
     },
 ];
 
+export const imagesData = [
+    { year: 2022, country:"Poland", images: poland2022 },
+    { year: 2022, country:"Spain", images: spain2022 },
+    { year: 2023,country:"Spain", images: spain2023 },
+    { year: 2023, country:"France", images: france2023 },
+    { year: 2023, country:"Germany", images: germany2023 },
+];
+
+
