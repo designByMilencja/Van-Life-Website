@@ -13,9 +13,11 @@ import construction from './hero/construction.jpg';
 import bulb from './icons/bulb-outline.svg';
 import bus from './bus/bus/van1.jpeg';
 import compass from './hero/compass-5261062_640.jpg';
-import we from './bus/we/wefestival.png'
+import we from './bus/we/wefestival.png';
+import camera from './icons/camera-outline.svg';
 
 export {
+    camera,
     we,
     compass,
     bus,

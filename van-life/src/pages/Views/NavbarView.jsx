@@ -1,14 +1,16 @@
 import React, {useState} from "react";
 import {navLinks} from "../../constants/index.js";
-import {earth, planetOutline} from "../../assets/index.js";
+import {camera, earth, planetOutline} from "../../assets/index.js";
 import {Link} from "react-router-dom";
 
 const NavbarView = () => {
     const [toggle, setToggle] = useState(false)
     return (
         <nav className="w-full flex py-6 justify-between items-center navbar">
-            <a className="w-[124px] h-[32px]"><strong className="text-gradient font-mono cursor-pointer">Van
-                Life</strong></a>
+            <a href="/" className="logo cursor-pointer">
+                <img src={camera} alt="Camera Icon" />
+                <h1 className="font-mono">Van Life</h1>
+            </a>
             <ul className="list-none sm:flex hidden justify-end items-center flex-1 z-[10]">
                 {navLinks.map((nav, index) => (
                     <li key={nav.id}

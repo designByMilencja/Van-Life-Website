@@ -1,15 +1,12 @@
-import styles from "../../style.js";
 
-const OneImage = ({src, desc, date, onClick}) => {
+const OneImage = ({src,desc, onClick}) => {
     const handleClick = (event) => {
         event.stopPropagation();
         onClick()
     };
     return (
         <li className="thumbnail" onClick={handleClick}>
-            <img src={src} className="p-1  rounded-[10px]" alt={desc}/>
-            <p className={`${styles.paragraph} p-3`}>{desc}</p>
-            <p className="text-gradient font-mono text-sm p-1">{date}</p>
+            <img src={src} loading="lazy" className="p-1  rounded-[10px]" alt={desc} tabIndex={0}/>
         </li>
     )
 }
