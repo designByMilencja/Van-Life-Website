@@ -1,6 +1,6 @@
 import React from "react";
 import Images from "./Images.jsx";
-import {france2023, poland2022, spain2022, spain2023} from "../../constants/index.js";
+import {france2023, germany2023, poland2022, spain2022, spain2023} from "../../constants/index.js";
 
 const Gallery = () => {
     return (
@@ -17,6 +17,10 @@ const Gallery = () => {
             <article id="france2023">
                 <Images images={france2023}/>
             </article>
+            <article id="germany2023">
+                <Images images={germany2023}/>
+            </article>
+
         </section>
     )
 }
