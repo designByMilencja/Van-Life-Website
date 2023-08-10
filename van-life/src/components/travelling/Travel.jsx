@@ -12,7 +12,7 @@ const Travel = () => {
                 <h1 className={styles.heading2}>Our <span
                     className="text-gradient"> first test trip</span> by camper <br className="sm:block hidden"/> was over the polish Baltic sea coast for a month </h1>
                 <div className="w-full md:mt-0 mt-6">
-                    <p className={`${styles.paragraph} text-left max-w-[650px] pl-5`}>In the summer of 2022 we visited cities from Swinoujscie to Gdansk, along the way passing two festivals: Summer Contrast and Sun. The weather was great, and the month in the camper passed very quickly, we stayed in the wild, so the trip was low-budget, which compensated for the rising prices at the seaside.</p>
+                    <p className={`${styles.paragraph} text-left max-w-[650px] pt-8 pl-8`}>In the summer of 2022 we visited cities from Swinoujscie to Gdansk, along the way passing two festivals: Summer Contrast and Sun. The weather was great, and the month in the camper passed very quickly, we stayed in the wild, so the trip was low-budget, which compensated for the rising prices at the seaside.</p>
                 </div>
             </div>
             <div className="flex flex-wrap justify-center w-full travel-container relative z-[1] ">
