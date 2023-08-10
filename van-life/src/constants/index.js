@@ -13,6 +13,7 @@ import
 import
 {p1, p11, p2, p3, p4, p5, p6, p7, p8, p9}
     from "../assets/poland2022/index.js";
+import {t1, t2, t3} from "../assets/travel/index.js";
 
 export const navLinks = [
     {
@@ -112,7 +113,7 @@ export const travels = [
         name: "Poland",
         title: "Baltic Sea",
         year: "2022",
-        img: palmCamp,
+        img: t1,
     },
     {
         id: "travel-2",
@@ -121,7 +122,7 @@ export const travels = [
         name: "Spain",
         year: "2022",
         title: "Continental part 2022/12/13",
-        img: palmCamp,
+        img: t3,
     },
     {
         id: "travel-3",
@@ -130,7 +131,7 @@ export const travels = [
         name: "Spain",
         year: "2023",
         title: "Tenerife 2023/01/01",
-        img: palmCamp,
+        img: t2,
     },
 ];
 
