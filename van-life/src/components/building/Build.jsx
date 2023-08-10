@@ -6,9 +6,9 @@ import styles from "../../style.js";
 const Build = () => {
     return (<>
             <section id="build"
-                     className=" h-[100%] mt-[100px] ss:mt-[200px] sm:mt-[240px] md:mt-[200px] glass rounded-lg relative">
+                     className=" h-[100%] mt-[50px] ss:mt-[200px] sm:mt-[240px] md:mt-[200px] glass rounded-lg relative">
                 <div>
-                    <h3 className="font-poppins font-semibold hover:animate-pulse xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-white pt-[30px] mx-2 md:mx-[50px]">Before
+                    <h3 className="font-poppins font-semibold hover:animate-pulse xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-white pt-[30px] md:mx-[50px] pl-2">Before
                         travelling</h3>
                     <div className="absolute z-[0] w-[40%] h-[15%] top-60 pink__gradient"></div>
                     <div className="absolute z-[1] w-[10%] h-[20%] rounded-full bottom-40 white__gradient"></div>
@@ -16,8 +16,8 @@ const Build = () => {
                 </div>
 
                 <div className="flex flex-col md:flex-row justify-center items-center">
-                    <div className="ml-[80px] sm:mb-0 flex-col justify-center items-center p-4">
-                        <Carousel className="p-2 text-white max-w-[500px]">
+                    <div className="sm:mb-0 flex-col justify-center items-center p-3">
+                        <Carousel className="p-2 text-white w-[300px] ss:w-[400px]">
                             <div>
                                 <img src="src/assets/bus/wojciech/w2.JPG" alt="sitting and planning men"/>
                                 <p className="legend">Planning...</p>
@@ -49,14 +49,14 @@ const Build = () => {
                             </div>
                         </Carousel>
                         <div className="p-[30px]">
-                            <p className="text-white max-w-[400px]"> Converting a bus to a camper is quite an extensive
+                            <p className="text-white max-w-[300px] p-1"> Converting a bus to a camper is quite an extensive
                                 and stressful issue, in addition, each arrangement branches out into more and more
                                 additional small cases. Such a scheme causes a lot of unplanned events and nerves.</p>
                         </div>
                     </div>
-                    <div className="ml-[80px] sm:mb-0 flex-col justify-center items-center p-4">
+                    <div className="sm:mb-0 flex-col justify-center items-center p-4">
                         <div className="p-[30px]">
-                            <p className="text-white max-w-[400px]"> We started with a visit to Bialystok where we
+                            <p className="text-white max-w-[300px] p-2"> We started with a visit to Bialystok where we
                                 purchased a 2015 Mercedes sprinter. Since then, two years have passed before we set out,
                                 even though the
                                 plans were to leave within 6 months. In the photo, the main hero of the first days of
@@ -64,7 +64,7 @@ const Build = () => {
                                 the priority was to get rid of it as soon as possible, with the help of a rust
                                 remover</p>
                         </div>
-                        <Carousel className="p-2 max-w-[500px]">
+                        <Carousel className="p-2 text-white w-[300px] ss:w-[400px]">
                             <div>
                                 <img className="py-2" src="src/assets/bus/products/IMG_4690.jpeg"
                                      alt="product for remove rust"/>
@@ -101,8 +101,8 @@ const Build = () => {
                 </div>
 
                 <div className="flex flex-col md:flex-row justify-center items-center">
-                    <div className="ml-[80px] sm:mb-0 flex-col justify-center items-center p-4">
-                        <Carousel className="p-2 text-white max-w-[500px]">
+                    <div className=" sm:mb-0 flex-col justify-center items-center p-4">
+                        <Carousel className="p-2 text-white w-[300px] ss:w-[400px]">
                             <div>
                                 <img className="py-2" src="src/assets/bus/cut/tyl.JPG" alt="back view when we cut window"/>
                                 <p className="legend">Back view with the roof window cut out...</p>
@@ -117,21 +117,21 @@ const Build = () => {
                             </div>
                         </Carousel>
                         <div className="p-[30px]">
-                            <p className="text-white max-w-[400px]"> Every day it got better and better, that's why you
+                            <p className="text-white max-w-[400px] "> Every day it got better and better, that's why you
                                 should never give up, even if the effects are not immediate. You can see how each day we
                                 got closer to the goal of the trip. The photos above show the most demanding part of the
                                 work, i.e. innocent-looking cutouts.</p>
                         </div>
                     </div>
-                    <div className="ml-[80px] sm:mb-0 flex-col justify-center items-center p-4">
+                    <div className="sm:mb-0 flex-col justify-center items-center p-4">
                         <div className="p-[30px]">
-                            <p className="text-white max-w-[400px]">This is where we started building furniture, our
+                            <p className="text-white max-w-[300px]">This is where we started building furniture, our
                                 goal was to create unique and personalized home decor pieces. We wanted to customize the
                                 design, size and materials to perfectly match the furniture to the camper. The idea was
                                 an economical way to save money, we wanted to use special lightweight materials and save
                                 on the cost of buying ready-made furniture.</p>
                         </div>
-                        <Carousel className="p-2 max-w-[500px]">
+                        <Carousel className="p-2 text-white w-[300px] ss:w-[400px]">
                             <div>
                                 <img className="py-2" src="src/assets/bus/wood/wood.JPG" alt="carpentry shop - source of materials"/>
                                 <p className="legend">Carpentry shop where we sourced materials</p>
