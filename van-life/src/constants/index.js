@@ -1,5 +1,5 @@
 import
-{logoFacebook, logoInstagram, logoEmail, logoLinkedin, palmCamp}
+{logoFacebook, logoInstagram, logoEmail, logoLinkedin}
     from "../assets";
 import
 {f29, f30, g1, g10, g11, g12, g13, g14, g15, g16, g17, g18, g19, g2, g3, g4, g5, g6, g7, g8, g9}
@@ -13,6 +13,8 @@ import
 import
 {p1, p11, p2, p3, p4, p5, p6, p7, p8, p9}
     from "../assets/poland2022/index.js";
+import {t1, t2, t3} from "../assets/travel/index.js";
+import {s1, s2, s3, s4, s5, s6, s7, s8} from "../assets/spain2022/index.js";
 
 export const navLinks = [
     {
@@ -58,13 +60,13 @@ export const contacts = [
         id: "contact-1",
         icon: logoFacebook,
         title: "facebook",
-        href: "https://www.facebook.com/",
+        href: "https://www.facebook.com",
     },
     {
         id: "contact-2",
         icon: logoInstagram,
         title: "instagram",
-        href: "https://www.instagram.com/",
+        href: "https://www.instagram.com",
     },
     {
         id: "contact-3",
@@ -76,7 +78,7 @@ export const contacts = [
         id: "contact-4",
         icon: logoLinkedin,
         title: "linkedin",
-        content: "https://www.linkedin.com/in/milenapienkosz/",
+        content: "https://www.linkedin.com/in/milenapienkosz",
     },
 ];
 
@@ -112,7 +114,7 @@ export const travels = [
         name: "Poland",
         title: "Baltic Sea",
         year: "2022",
-        img: palmCamp,
+        img: t1,
     },
     {
         id: "travel-2",
@@ -120,8 +122,8 @@ export const travels = [
             "Imagine golden beaches, blue waves of the Mediterranean and spectacular views that will enchant your senses. This is the coast of mainland Spain, a place where magic meets history and adventure greets you at every turn.",
         name: "Spain",
         year: "2022",
-        title: "Continental part 2022/12/13",
-        img: palmCamp,
+        title: "Continental part",
+        img: t3,
     },
     {
         id: "travel-3",
@@ -129,69 +131,78 @@ export const travels = [
             "The Canary Islands, a paradisaical archipelago that offers an extraordinary combination of natural beauty, a perfect climate and countless attractions. These Spanish islands, located in the Atlantic Ocean, will delight you with their white beaches, mysterious volcanoes and diverse landscapes.",
         name: "Spain",
         year: "2023",
-        title: "Tenerife 2023/01/01",
-        img: palmCamp,
+        title: "Tenerife",
+        img: t2,
     },
 ];
 
 export const poland2022 = [
     {
         image: p1,
-        desc: "to jest polska",
+        desc: "large fish sign with the name of the locality painted on it",
         title: "Poland 2022"
     },
     {
         image: p2,
-        desc: "to jest polska",
+        desc: "five fishing boats against the sea",
     },
     {
         image: p3,
-        desc: "to jest polska",
+        desc: "religious billboard on the background of a brick wall",
     }, {
         image: p4,
-        desc: "to jest polska",
+        desc: "castle in beautiful sunny weather",
     }, {
         image: p5,
-        desc: "to jest polska",
+        desc: "restaurant where fishing nets hang on the walls",
     },
     {
         image: p6,
-        desc: "to jest polska",
+        desc: "wave flooding the sand and feet",
     }, {
         image: p7,
-        desc: "to jest polska",
+        desc: "windmill generating renewable energy",
     }, {
         image: p8,
-        desc: "to jest polska",
+        desc: "stairs in the middle of the forest",
     }, {
         image: p9,
-        desc: "to jest polska",
+        desc: "sunset on the beach",
     }, {
         image: p11,
-        desc: "to jest polska",
+        desc: "hand holding a book against a background of greenery",
     },
 ];
 export const spain2022 = [
     {
-        image: palmCamp,
-        desc: "to jest polska",
-        date: "2022/02/22",
+        image: s1,
+        desc: "mural on the wall depicting a garden",
         title: "Spain 2022"
     },
     {
-        image: palmCamp,
-        desc: "to jest polska",
-        date: "2022/02/22",
-    }, {
-        image: palmCamp,
-        desc: "to jest polska",
-        date: "2022/02/22",
+        image: s2,
+        desc: "town by the river",
     },
     {
-        image: palmCamp,
-        desc: "to jest polska",
-        date: "2022/02/22",
-    }
+        image: s3,
+        desc: "surfing board leaning against a palm tree",
+    },
+    {
+        image: s4,
+        desc: "coastline by the ocean",
+    },    {
+        image: s5,
+        desc: "a bench with an octopus painted on it",
+    },    {
+        image: s6,
+        desc: "huge aloe vera in the center of the photo",
+    },    {
+        image: s7,
+        desc: "picture of a pieti-style religious picture",
+    },    {
+        image: s8,
+        desc: "spanish house with a fence overgrown with flowers",
+    },
 ];
 export const spain2023 = [
     {
