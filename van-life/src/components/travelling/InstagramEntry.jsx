@@ -12,7 +12,7 @@ const InstagramEntry = () =>
                 we share fascinating moments from our travels.
                 Explore the beauty of different corners of the world with us and let our photos transport you to magical
                 places. We look forward to seeing you there! </p>
-            <Button styles="mt-10" text="Go to Instagram"/>
+            <Button styles="mt-10" text="Go to Instagram" href="https://www.instagram.com/millencja/"/>
             <div className=" absolute z-[0] w-[80%] h-[40%] right-[-70%] rounded-full pink__gradient "></div>
 
         </div>
