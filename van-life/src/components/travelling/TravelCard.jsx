@@ -9,7 +9,7 @@ const TravelCard = ({content, name, title, year, img}) => {
             <p className="font-poppins font-normal text-[18px] leading-[32px] text-white my-10">{content}</p>
             <p className="font-poppins font-normal text-dimWhite p-3">{title} {year}</p>
             <p className="font-semibold text-gradient m-2 pb-4">{name}</p>
-            <ButtonRound textFirst="see" textSecond="more" url={`/gallery#${name}${year}`}/>
+            <ButtonRound textFirst="see" textSecond="more" url={`/gallery?year=${encodeURIComponent(year)}&name=${encodeURIComponent(name)}#gallery`}/>
         </div>
     )
 }
