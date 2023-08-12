@@ -6,9 +6,9 @@ import HeadingOne from "../common/HeadingOne.jsx";
 
 const HeaderBuilding = () => {
     return (
-        <section className={`flex md:flex-row flex-col ${styles.paddingY} h-[65vh] w-full `}>
+        <section className={`flex md:flex-row flex-col ${styles.paddingY} w-full `}>
             <div className={`flex-1 flex-col xl:px-0 sm:px-16 px-6`}>
-                <Subheading icon={hammer} alt="icon hummer" firstText="Not" importantText="EXACTLY" secondText="home!"/>
+                <Subheading icon={hammer} alt="icon hummer" firstText="Not" importantText="EXACTLY" secondText="home yet!"/>
                 <div className="flex p-2">
                     <img src={construction} alt="scratch map of building" className="h-full items-end rounded-[10px]"/>
                     <div className="mt-[80px]">

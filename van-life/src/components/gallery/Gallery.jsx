@@ -1,26 +1,62 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import Images from "./Images.jsx";
-import {france2023, germany2023, poland2022, spain2022, spain2023} from "../../constants/index.js";
+import {imagesData} from "../../constants/index.js";
+import YearTabs from "./YearTabs.jsx";
+import CountryTabs from "./CountryTabs.jsx";
+import {useLocation} from "react-router-dom";
+import { animateScroll as scroll } from "react-scroll";
+
 
 const Gallery = () => {
-    return (
-        <section id="gallery">
-            <article id="poland2022">
-                <Images images={poland2022}/>
-            </article>
-            <article id="spain2022">
-                <Images images={spain2022}/>
-            </article>
-            <article id="spain2023">
-                <Images images={spain2023}/>
-            </article>
-            <article id="france2023">
-                <Images images={france2023}/>
-            </article>
-            <article id="germany2023">
-                <Images images={germany2023}/>
-            </article>
+    const years = Array.from(new Set(imagesData.map((data) => data.year)));
+    const countries = Array.from(new Set(imagesData.map((data) => data.country)));
+    const [selectedYear, setSelectedYear] = useState(null);
+    const [selectedCountry, setSelectedCountry] = useState(null);
+    const location = useLocation();
+    const queryParams = new URLSearchParams(location.search);
+    const queryName = queryParams.get("name");
+    const queryYear = queryParams.get("year");
 
+    const scrollToGallery = () => {
+        const scrollTimeout = setTimeout(() => {
+            scroll.scrollTo("gallery", {
+                smooth: 'easeInOutQuart',
+                duration: 900,
+                offset: -100,
+            });
+        }, 3000);
+
+        return () => clearTimeout(scrollTimeout);
+    };
+
+    useEffect(() => {
+        const parsedQueryYear = parseInt(queryYear, 10);
+        if (parsedQueryYear === 2022 || parsedQueryYear === 2023) {
+            setSelectedYear(parsedQueryYear);
+            setSelectedCountry(queryName);
+            scrollToGallery()
+        }
+    }, [queryYear, queryName]);
+    const handleYearSelect = (year) => {
+        setSelectedYear(year);
+    };
+
+    const handleCountrySelect = (country) => {
+        setSelectedCountry(country);
+    };
+
+    return (<section>
+            <YearTabs years={years} selectedYear={selectedYear} selectedCountry={selectedCountry}
+                      onYearSelect={handleYearSelect}/>
+            {selectedYear && <CountryTabs countries={countries} selectedCountry={selectedCountry}
+                                          onCountrySelect={handleCountrySelect}/>}
+            {imagesData
+                .filter((data) => data.year === selectedYear && (!selectedCountry || data.country === selectedCountry))
+                .map((data, index) => (
+                    <article id="gallery" key={index}>
+                        <Images selectedC={selectedCountry} selectedY={selectedYear} images={data.images}/>
+                    </article>
+                ))}
         </section>
     )
 }

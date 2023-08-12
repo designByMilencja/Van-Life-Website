@@ -7,7 +7,7 @@ import HeadingOne from "../common/HeadingOne.jsx";
 
 const Hero = () => {
     return (<>
-            <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} h-[65vh] `}>
+            <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} h-[70vh] `}>
                 <div className={`flex-1 flex-col xl:px-0 sm:px-16 px-6`}>
                     <Subheading icon={dice} alt="icon dice" firstText="You've just" importantText="UNLOCKED" secondText="adventure!"/>
                     <div className="flex">

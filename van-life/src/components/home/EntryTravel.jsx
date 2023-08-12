@@ -19,7 +19,7 @@ const EntryTravel = () => {
                     </p>
                     <img alt="map of Spain" className="hidden lg:block absolute top-0 right-[0] h-[300px] transform translate-x-full transition-transform duration-500" src='/spainMap.png'/>
                 </div>
-                <ButtonRound textFirst="see" textSecond="more" url="/travelling"/>
+                <ButtonRound textFirst="see" textSecond="more" url="/gallery"/>
             </div>
         </section>
     )
