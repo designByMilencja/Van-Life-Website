@@ -14,7 +14,7 @@ import
 {p1, p11, p2, p3, p4, p5, p6, p7, p8, p9}
     from "../assets/poland2022/index.js";
 import {t1, t2, t3} from "../assets/travel/index.js";
-import {s1, s2, s3, s4, s5, s6, s7, s8} from "../assets/spain2022/index.js";
+import {s1, s2, s3, s4, s5, s6} from "../assets/spain2022/index.js";
 
 export const navLinks = [
     {
@@ -61,24 +61,28 @@ export const contacts = [
         icon: logoFacebook,
         title: "facebook",
         href: "https://www.facebook.com",
+        target: "_blank",
     },
     {
         id: "contact-2",
         icon: logoInstagram,
         title: "instagram",
         href: "https://www.instagram.com",
+        target: "_blank",
     },
     {
         id: "contact-3",
         icon: logoEmail,
         title: "email",
-        content: "",
+        href: "mailto:designbymilencja@gmail.com",
+        target: "",
     },
     {
         id: "contact-4",
         icon: logoLinkedin,
         title: "linkedin",
-        content: "https://www.linkedin.com/in/milenapienkosz",
+        href: "https://www.linkedin.com/in/milenapienkosz",
+        target: "_blank",
     },
 ];
 
@@ -176,32 +180,27 @@ export const poland2022 = [
 export const spain2022 = [
     {
         image: s1,
-        desc: "mural on the wall depicting a garden",
+        desc: "spanish house with a fence overgrown with flowers",
         title: "Spain 2022"
     },
     {
         image: s2,
-        desc: "town by the river",
+        desc: "picture of a pieti-style religious picture",
     },
     {
         image: s3,
-        desc: "surfing board leaning against a palm tree",
+        desc: "huge aloe vera in the center of the photo",
     },
     {
         image: s4,
-        desc: "coastline by the ocean",
-    },    {
-        image: s5,
         desc: "a bench with an octopus painted on it",
     },    {
+        image: s5,
+        desc: "surfing board leaning against a palm tree",
+
+    },    {
         image: s6,
-        desc: "huge aloe vera in the center of the photo",
-    },    {
-        image: s7,
-        desc: "picture of a pieti-style religious picture",
-    },    {
-        image: s8,
-        desc: "spanish house with a fence overgrown with flowers",
+        desc: "sandy coast and rocks by the ocean",
     },
 ];
 export const spain2023 = [
