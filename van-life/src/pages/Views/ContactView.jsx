@@ -8,7 +8,7 @@ export const ContactView = () => {
         <section id="contacts">
             <div className={`flex-1 flex ${styles.flexCenter} md:mt-0 mt-10 relative flex-row flex-wrap`}>
                 {contacts.map((contact) => (
-                    <ContactCard key={contact.id} icon={contact.icon} title={contact.title} href={contact.href}/>))}
+                    <ContactCard key={contact.id} icon={contact.icon} title={contact.title} href={contact.href} target={contact.target}/>))}
             </div>
         </section>
 )
