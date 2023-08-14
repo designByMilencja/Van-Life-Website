@@ -165,27 +165,27 @@ export const poland2022 = [
 ];
 export const spain2022 = [
     {
-        image: s1,
+        image: "/gallery/spain2022/IMG_1386-min.jpg",
         desc: "spanish house with a fence overgrown with flowers",
         title: "Spain 2022"
     },
     {
-        image: s2,
+        image: "/gallery/spain2022/IMG_1390-min.jpg",
         desc: "picture of a pieti-style religious picture",
     },
     {
-        image: s3,
+        image: "/gallery/spain2022/IMG_1392-min.jpg",
         desc: "huge aloe vera in the center of the photo",
     },
     {
-        image: s4,
+        image: "/gallery/spain2022/IMG_1400-min.jpg",
         desc: "a bench with an octopus painted on it",
     },    {
-        image: s5,
+        image: "/gallery/spain2022/IMG_1439-min.jpg",
         desc: "surfing board leaning against a palm tree",
 
     },    {
-        image: s6,
+        image: "/gallery/spain2022/IMG_1442-min.jpg",
         desc: "sandy coast and rocks by the ocean",
     },
 ];
