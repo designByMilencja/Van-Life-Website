@@ -133,33 +133,33 @@ export const poland2022 = [
         title: "Poland 2022"
     },
     {
-        image: p2,
+        image: "/gallery/poland2022/IMG_0507-min.jpg",
         desc: "five fishing boats against the sea",
     },
     {
-        image: p3,
+        image: "/gallery/poland2022/IMG_0509-min.jpg",
         desc: "religious billboard on the background of a brick wall",
     }, {
-        image: p4,
+        image: "/gallery/poland2022/IMG_0661-min.jpg",
         desc: "castle in beautiful sunny weather",
     }, {
-        image: p5,
+        image: "/gallery/poland2022/IMG_0704-min.jpg",
         desc: "restaurant where fishing nets hang on the walls",
     },
     {
-        image: p6,
+        image: "/gallery/poland2022/IMG_0801 2-min.jpg",
         desc: "wave flooding the sand and feet",
     }, {
-        image: p7,
+        image: "/gallery/poland2022/IMG_0811 2-min.jpg",
         desc: "windmill generating renewable energy",
     }, {
-        image: p8,
+        image: "/gallery/poland2022/IMG_0969-min.jpg",
         desc: "stairs in the middle of the forest",
     }, {
-        image: p9,
+        image: "/gallery/poland2022/IMG_1217-min.jpg",
         desc: "sunset on the beach",
     }, {
-        image: p11,
+        image: "/gallery/poland2022/IMG_9626-min.jpg",
         desc: "hand holding a book against a background of greenery",
     },
 ];
