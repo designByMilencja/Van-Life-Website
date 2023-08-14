@@ -25,7 +25,7 @@ const AboutUs = () => {
                            We are</span>
                         </div>
                         <div className="flex justify-center items-center relative ">
-                            <img className="max-h-[300px] min-w-[200px] p-4" src="/src/assets/bus/we/we.png" alt="profile photo"/>
+                            <img className="max-h-[300px] min-w-[200px] p-4" src="/home/we.jpeg" alt="profile photo"/>
                             {isVisible && (
                                 <div className="thunder"></div>
                             )}

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../../style.js";
-import {dice, globe} from "../../assets/index.js";
+import {dice} from "../../assets/index.js";
 import {headingLetters, spanTexts} from "../../constants/index.js";
 import {Subheading} from "../common/Subheading.jsx";
 import HeadingOne from "../common/HeadingOne.jsx";
@@ -12,7 +12,7 @@ const Hero = () => {
                     <Subheading icon={dice} alt="icon dice" firstText="You've just" importantText="UNLOCKED" secondText="adventure!"/>
                     <div className="flex">
                         <video autoPlay loop muted playsInline className="items-center">
-                            <source src={globe} type="video/mp4"/>
+                            <source src="/home/globe.mp4" type="video/mp4"/>
                             Your browser does not support the video tag.
                         </video>
                         <div className="mt-[80px]">
