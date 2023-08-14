@@ -355,21 +355,18 @@ export const france2023 = [
 
 export const germany2023 = [
     {
-        image: e1,
+        image: "/gallery/germany2023/IMG_1814-min.jpg",
         desc: "wartburg castle on a hill",
         title: "Germany 2023"
     },
     {
-        image: e2,
+        image: "/gallery/germany2023/IMG_1817-min.jpg",
         desc: "metal bas-relief depicting model of a castle",
     }, {
-        image: e3,
+        image: "/gallery/germany2023/IMG_1824-min.jpg",
         desc: "black plan of wartburg castle",
     }, {
-        image: e4,
-        desc: "a sculpture on a bench depicting bread and on it a cut rose",
-    }, {
-        image: e5,
+        image: "/gallery/germany2023/IMG_1840-min.jpg",
         desc: "a yellow food truck with delicious German sausages",
     },
 ];
