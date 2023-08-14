@@ -1,20 +1,6 @@
 import
 {logoFacebook, logoInstagram, logoEmail, logoLinkedin}
     from "../assets";
-import
-{f29, f30, g1, g10, g11, g12, g13, g14, g15, g16, g17, g18, g19, g2, g3, g4, g5, g6, g7, g8, g9}
-    from "../assets/spain2023/index.js";
-import
-{f1, f11, f2, f4, f6, f7, f8, f9, f3, f13, f14, f15, f16, f17, f18, f19, f20, f23, f24, f25, f26, f27, f28}
-    from "../assets/france2023/index.js";
-import
-{e1, e2, e3, e4, e5}
-    from "../assets/germany2023/index.js";
-import
-{p1, p11, p2, p3, p4, p5, p6, p7, p8, p9}
-    from "../assets/poland2022/index.js";
-import {t1, t2, t3} from "../assets/travel/index.js";
-import {s1, s2, s3, s4, s5, s6} from "../assets/spain2022/index.js";
 
 export const navLinks = [
     {
@@ -118,7 +104,7 @@ export const travels = [
         name: "Poland",
         title: "Baltic Sea",
         year: "2022",
-        img: t1,
+        img: "/travel/IMG_1310-min.jpg",
     },
     {
         id: "travel-2",
@@ -127,7 +113,7 @@ export const travels = [
         name: "Spain",
         year: "2022",
         title: "Continental part",
-        img: t3,
+        img: "/travel/IMG_6195-min.jpg",
     },
     {
         id: "travel-3",
@@ -136,7 +122,7 @@ export const travels = [
         name: "Spain",
         year: "2023",
         title: "Tenerife",
-        img: t2,
+        img: "/travel/IMG_9017-min.jpg",
     },
 ];
 
