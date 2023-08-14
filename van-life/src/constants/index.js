@@ -270,85 +270,85 @@ export const spain2023 = [
 
 export const france2023 = [
     {
-        image: f1,
+        image: "/gallery/france2023/f1-min.jpg",
         desc: "cathedral with soaring towers",
         title: "France 2023",
     },
     {
-        image: f2,
+        image: "/gallery/france2023/f2-min.jpg",
         desc: "flat-roofed lion at the entrance to the staircase",
     },
     {
-        image: f3,
+        image: "/gallery/france2023/f3-min.jpg",
         desc: "mural depicting two astronauts one giving the other a flower",
     },
     {
-        image: f4,
+        image: "/gallery/france2023/f4-min.jpg",
         desc: "cute purple house with wooden shutters",
     },
     {
-        image: f6,
+        image: "/gallery/france2023/f6-min.jpg",
         desc: "red poppies on a background of green grass",
     },
     {
-        image: f7,
+        image: "/gallery/france2023/f7-min.jpg",
         desc: "richly carved wall of the cathedral",
     },
     {
-        image: f8,
+        image: "/gallery/france2023/f8-min.jpg",
         desc: "a mural depicting an undressed couple in a glass of wine",
     },
     {
-        image: f9,
+        image: "/gallery/france2023/f9-min.jpg",
         desc: "a winding french street",
     },
     {
-        image: f11,
+        image: "/gallery/france2023/f11-min.jpg",
         desc: "a view of the riverfront with bicycles attached to the barges",
     },
     {
-        image: f13,
+        image: "/gallery/france2023/f13-min.jpg",
         desc: "view of the cathedral across the street",
     }, {
-        image: f14,
+        image: "/gallery/france2023/f14-min.jpg",
         desc: "a view of the massive building in the distance beyond the river and greenery",
     }, {
-        image: f15,
+        image: "/gallery/france2023/f15-min.jpg",
         desc: "a view of a French townhouse with interesting balconies",
     }, {
-        image: f16,
+        image: "/gallery/france2023/f16-min.jpg",
         desc: "semi-circular entrance to the hotel, with a sculpture of a woman with a vase on her head placed in the background",
     }, {
-        image: f17,
+        image: "/gallery/france2023/f17-min.jpg",
         desc: "a passageway for writers leading to an interesting townhouse",
     }, {
-        image: f18,
+        image: "/gallery/france2023/f18-min.jpg",
         desc: "massive gray building with interesting decorations",
     }, {
-        image: f19,
+        image: "/gallery/france2023/f19-min.jpg",
         desc: "a fragment of a bus shelter with the outlines of the old town drawn on it",
     }, {
-        image: f20,
+        image: "/gallery/france2023/f20-min.jpg",
         desc: "front of tenement house with huge lvov rows",
     }, {
-        image: f23,
+        image: "/gallery/france2023/f23-min.jpg",
         desc: "picturesque buildingscape in salzburg with lattice style",
     }, {
-        image: f24,
+        image: "/gallery/france2023/f24-min.jpg",
         desc: "wooden tall building against a light blue sky",
     }, {
-        image: f25,
+        image: "/gallery/france2023/f25-min.jpg",
         desc: "a bridge with logs attached to it and a wide building behind it",
     }, {
-        image: f26,
+        image: "/gallery/france2023/f26-min.jpg",
         desc: "building with ivy overgrowing it",
     },
     {
-        image: f27,
+        image: "/gallery/france2023/f27-min.jpg",
         desc: "amazingly designed townhouses on a flowing river",
     },
     {
-        image: f28,
+        image: "/gallery/france2023/f28-min.jpg",
         desc: "a view of a street surrounded by colorful townhouses",
     },
 ];
