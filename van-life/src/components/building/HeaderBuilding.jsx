@@ -1,6 +1,6 @@
 import styles from "../../style.js";
 import {Subheading} from "../common/Subheading.jsx";
-import {construction, hammer} from "../../assets/index.js";
+import {hammer} from "../../assets/index.js";
 import React from "react";
 import HeadingOne from "../common/HeadingOne.jsx";
 
@@ -10,7 +10,7 @@ const HeaderBuilding = () => {
             <div className={`flex-1 flex-col xl:px-0 sm:px-16 px-6`}>
                 <Subheading icon={hammer} alt="icon hummer" firstText="Not" importantText="EXACTLY" secondText="home yet!"/>
                 <div className="flex p-2">
-                    <img src={construction} alt="scratch map of building" className="h-full items-end rounded-[10px]"/>
+                    <img src="/building/construction.jpg" alt="scratch map of building" className="h-full items-end rounded-[10px]"/>
                     <div className="mt-[80px]">
                         <div className=" w-[100%] h-[100%] z-[5] hidden md:block">
                             <p className={`font-poppins font-normal leading-[30.8px] ml-[70px] p-1 max-w-[350px] min-w-[300px] text-white text-xl`}>"Travel
