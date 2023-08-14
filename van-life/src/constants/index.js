@@ -128,7 +128,7 @@ export const travels = [
 
 export const poland2022 = [
     {
-        image: p1,
+        image: "/gallery/poland2022/IMG_0493-min.jpg",
         desc: "large fish sign with the name of the locality painted on it",
         title: "Poland 2022"
     },
