@@ -113,7 +113,7 @@ export const travels = [
         name: "Spain",
         year: "2022",
         title: "Continental part",
-        img: "/travel/IMG_6195-min.jpg",
+        img: "/travel/IMG_6195-min.jpg ",
     },
     {
         id: "travel-3",
