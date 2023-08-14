@@ -7,7 +7,6 @@ import logoInstagram from './contact/logoInstagram.svg';
 import logoEmail from './contact/mail.svg';
 import logoLinkedin from './contact/logoLinkedin.svg';
 import hammer from './icons/hammer.svg';
-import globe from './hero/globe.mp4';
 import palmCamp from './hero/palmCamp.jpg';
 import construction from './hero/construction.jpg';
 import bulb from './icons/bulb-outline.svg';
@@ -27,7 +26,6 @@ export {
     construction,
     palmCamp,
     hammer,
-    globe,
     dice,
     planetOutline,
     earth,
