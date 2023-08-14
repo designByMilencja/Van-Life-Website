@@ -191,79 +191,79 @@ export const spain2022 = [
 ];
 export const spain2023 = [
     {
-        image: g1,
+        image: "/gallery/spain2023/g1-min.jpg",
         desc: "gran canary mountain ranges",
         title: "Spain 2023",
     },
     {
-        image: g2,
+        image: "/gallery/spain2023/g2-min.jpg",
         desc: "bus on the ocean background",
     },
     {
-        image: g3,
+        image: "/gallery/spain2023/g3-min.jpg",
         desc: "lighthouse with red and white stripes at sunset",
     },
     {
-        image: g5,
+        image: "/gallery/spain2023/g5-min.jpg",
         desc: "gran canary coast with wooden stakes",
     },
     {
-        image: g4,
+        image: "/gallery/spain2023/g4-min.jpg",
         desc: "",
     },
     {
-        image: g6,
+        image: "/gallery/spain2023/g6-min.jpg",
         desc: "gran canary oceanfront pier with lanterns",
     },
     {
-        image: g7,
+        image: "/gallery/spain2023/g7-min.jpg",
         desc: "red flower that looks like a brush",
     },
     {
-        image: g8,
+        image: "/gallery/spain2023/g8-min.jpg",
         desc: "sunlight breaking through the leaves of a huge palm tree",
     },
     {
-        image: g9,
+        image: "/gallery/spain2023/g9-min.jpg",
         desc: "two penguins standing on an iceberg",
     },
     {
-        image: g10,
+        image: "/gallery/spain2023/g10-min.jpg",
         desc: "sunset view of the ocean with a white crescent wall",
     }, {
-        image: g11,
+        image: "/gallery/spain2023/g11-min.jpg",
         desc: "a street of white houses with a sky of pink clouds",
     }, {
-        image: g12,
+        image: "/gallery/spain2023/g12-min.jpg",
         desc: "beach with a section of beach bar with straw umbrellas",
     }, {
-        image: g13,
+        image: "/gallery/spain2023/IMG_0870-min.jpg",
         desc: "beach with a section of beach bar with straw umbrellas",
     }, {
-        image: g14,
+        image: "/gallery/spain2023/IMG_1037-min.jpg",
         desc: "beach with a section of beach bar with straw umbrellas",
     }, {
-        image: g15,
+        image: "/gallery/spain2023/IMG_1045-min.jpg",
         desc: "beach with a section of beach bar with straw umbrellas",
     }, {
-        image: g16,
+        image: "/gallery/spain2023/IMG_1099-min.jpg",
         desc: "beach with a section of beach bar with straw umbrellas",
     }, {
-        image: g17,
+        image: "/gallery/spain2023/IMG_1281-min.jpg",
         desc: "beach with a section of beach bar with straw umbrellas",
     }, {
-        image: g18,
+        image: "/gallery/spain2023/IMG_1378-min.jpg",
         desc: "beach with a section of beach bar with straw umbrellas",
     },
     {
-        image: g19,
+        image: "/gallery/spain2023/IMG_1381-min.jpg",
         desc: "beach with a section of beach bar with straw umbrellas",
     },
     {
-        image: f29,
+        image: "/gallery/spain2023/f29-min.jpg",
         desc: "two small birds sitting on a rock by the water",
     }, {
-        image: f30,
+        image: "/gallery/spain2023/f30-min.jpg",
         desc: "a flock of bright pink flamingos in a green clearing",
     },
 ];
