@@ -23,6 +23,10 @@ export const navLinks = [
         id: "expenses",
         title: "Expenses",
     },
+    {
+        id: "website",
+        title: "Website",
+    },
 ];
 export const headingLetters = ['V', 'A', 'N', 'L', 'I', 'F', 'E'];
 
