@@ -5,6 +5,7 @@ import Building from "./pages/BuildingPage/Building.jsx";
 import Travelling from "./pages/TravellingPage/Travelling.jsx";
 import GalleryPage from "./pages/GalleryPage/GalleryPage.jsx";
 import Expenses from "./pages/ExpensesPage/Expenses.jsx";
+import Website from "./pages/WebsitePage/Website.jsx";
 
 
 
@@ -17,6 +18,7 @@ const App = () => {
                 <Route exact path="/travelling" element={<Travelling />} />
                 <Route exact path="/gallery" element={<GalleryPage />} />
                 <Route exact path="/expenses" element={<Expenses />} />
+                <Route exact path="/website" element={<Website />} />
             </Routes>
         </Router>
     );
