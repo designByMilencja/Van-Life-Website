@@ -1,20 +1,6 @@
 import
 {logoFacebook, logoInstagram, logoEmail, logoLinkedin}
     from "../assets";
-import
-{f29, f30, g1, g10, g11, g12, g13, g14, g15, g16, g17, g18, g19, g2, g3, g4, g5, g6, g7, g8, g9}
-    from "../assets/spain2023/index.js";
-import
-{f1, f11, f2, f4, f6, f7, f8, f9, f3, f13, f14, f15, f16, f17, f18, f19, f20, f23, f24, f25, f26, f27, f28}
-    from "../assets/france2023/index.js";
-import
-{e1, e2, e3, e4, e5}
-    from "../assets/germany2023/index.js";
-import
-{p1, p11, p2, p3, p4, p5, p6, p7, p8, p9}
-    from "../assets/poland2022/index.js";
-import {t1, t2, t3} from "../assets/travel/index.js";
-import {s1, s2, s3, s4, s5, s6} from "../assets/spain2022/index.js";
 
 export const navLinks = [
     {
@@ -36,6 +22,10 @@ export const navLinks = [
     {
         id: "expenses",
         title: "Expenses",
+    },
+    {
+        id: "website",
+        title: "Website",
     },
 ];
 export const headingLetters = ['V', 'A', 'N', 'L', 'I', 'F', 'E'];
@@ -118,7 +108,7 @@ export const travels = [
         name: "Poland",
         title: "Baltic Sea",
         year: "2022",
-        img: t1,
+        img: "/travel/IMG_1310-min.jpg",
     },
     {
         id: "travel-2",
@@ -127,7 +117,7 @@ export const travels = [
         name: "Spain",
         year: "2022",
         title: "Continental part",
-        img: t3,
+        img: "/travel/IMG_6195-min.jpg",
     },
     {
         id: "travel-3",
@@ -136,254 +126,251 @@ export const travels = [
         name: "Spain",
         year: "2023",
         title: "Tenerife",
-        img: t2,
+        img: "/travel/IMG_9017-min.jpg",
     },
 ];
 
 export const poland2022 = [
     {
-        image: p1,
+        image: "/gallery/poland2022/IMG_0493-min.jpg",
         desc: "large fish sign with the name of the locality painted on it",
         title: "Poland 2022"
     },
     {
-        image: p2,
+        image: "/gallery/poland2022/IMG_0507-min.jpg",
         desc: "five fishing boats against the sea",
     },
     {
-        image: p3,
+        image: "/gallery/poland2022/IMG_0509-min.jpg",
         desc: "religious billboard on the background of a brick wall",
     }, {
-        image: p4,
+        image: "/gallery/poland2022/IMG_0661-min.jpg",
         desc: "castle in beautiful sunny weather",
     }, {
-        image: p5,
+        image: "/gallery/poland2022/IMG_0704-min.jpg",
         desc: "restaurant where fishing nets hang on the walls",
     },
     {
-        image: p6,
+        image: "/gallery/poland2022/IMG_0801 2-min.jpg",
         desc: "wave flooding the sand and feet",
     }, {
-        image: p7,
+        image: "/gallery/poland2022/IMG_0811 2-min.jpg",
         desc: "windmill generating renewable energy",
     }, {
-        image: p8,
+        image: "/gallery/poland2022/IMG_0969-min.jpg",
         desc: "stairs in the middle of the forest",
     }, {
-        image: p9,
+        image: "/gallery/poland2022/IMG_1217-min.jpg",
         desc: "sunset on the beach",
     }, {
-        image: p11,
+        image: "/gallery/poland2022/IMG_9626-min.jpg",
         desc: "hand holding a book against a background of greenery",
     },
 ];
 export const spain2022 = [
     {
-        image: s1,
+        image: "/gallery/spain2022/IMG_1386_2-min.jpg",
         desc: "spanish house with a fence overgrown with flowers",
         title: "Spain 2022"
     },
     {
-        image: s2,
+        image: "/gallery/spain2022/IMG_1390_2-min.jpg",
         desc: "picture of a pieti-style religious picture",
     },
     {
-        image: s3,
+        image: "/gallery/spain2022/IMG_1392_2-min.jpg",
         desc: "huge aloe vera in the center of the photo",
     },
     {
-        image: s4,
+        image: "/gallery/spain2022/IMG_1400_2-min.jpg",
         desc: "a bench with an octopus painted on it",
     },    {
-        image: s5,
+        image: "/gallery/spain2022/IMG_1439_2-min.jpg",
         desc: "surfing board leaning against a palm tree",
 
     },    {
-        image: s6,
+        image: "/gallery/spain2022/IMG_1442_2-min.jpg",
         desc: "sandy coast and rocks by the ocean",
     },
 ];
 export const spain2023 = [
     {
-        image: g1,
+        image: "/gallery/spain2023/g1-min.jpg",
         desc: "gran canary mountain ranges",
         title: "Spain 2023",
     },
     {
-        image: g2,
+        image: "/gallery/spain2023/g2-min.jpg",
         desc: "bus on the ocean background",
     },
     {
-        image: g3,
+        image: "/gallery/spain2023/g3-min.jpg",
         desc: "lighthouse with red and white stripes at sunset",
     },
     {
-        image: g5,
+        image: "/gallery/spain2023/g5-min.jpg",
         desc: "gran canary coast with wooden stakes",
     },
     {
-        image: g4,
+        image: "/gallery/spain2023/g4-min.jpg",
         desc: "",
     },
     {
-        image: g6,
+        image: "/gallery/spain2023/g6-min.jpg",
         desc: "gran canary oceanfront pier with lanterns",
     },
     {
-        image: g7,
+        image: "/gallery/spain2023/g7-min.jpg",
         desc: "red flower that looks like a brush",
     },
     {
-        image: g8,
+        image: "/gallery/spain2023/g8-min.jpg",
         desc: "sunlight breaking through the leaves of a huge palm tree",
     },
     {
-        image: g9,
+        image: "/gallery/spain2023/g9-min.jpg",
         desc: "two penguins standing on an iceberg",
     },
     {
-        image: g10,
+        image: "/gallery/spain2023/g10-min.jpg",
         desc: "sunset view of the ocean with a white crescent wall",
     }, {
-        image: g11,
+        image: "/gallery/spain2023/g11-min.jpg",
         desc: "a street of white houses with a sky of pink clouds",
     }, {
-        image: g12,
+        image: "/gallery/spain2023/g12-min.jpg",
         desc: "beach with a section of beach bar with straw umbrellas",
     }, {
-        image: g13,
+        image: "/gallery/spain2023/IMG_0870-min.jpg",
         desc: "beach with a section of beach bar with straw umbrellas",
     }, {
-        image: g14,
+        image: "/gallery/spain2023/IMG_1037-min.jpg",
         desc: "beach with a section of beach bar with straw umbrellas",
     }, {
-        image: g15,
+        image: "/gallery/spain2023/IMG_1045-min.jpg",
         desc: "beach with a section of beach bar with straw umbrellas",
     }, {
-        image: g16,
+        image: "/gallery/spain2023/IMG_1099-min.jpg",
         desc: "beach with a section of beach bar with straw umbrellas",
     }, {
-        image: g17,
+        image: "/gallery/spain2023/IMG_1281-min.jpg",
         desc: "beach with a section of beach bar with straw umbrellas",
     }, {
-        image: g18,
+        image: "/gallery/spain2023/IMG_1378-min.jpg",
         desc: "beach with a section of beach bar with straw umbrellas",
     },
     {
-        image: g19,
+        image: "/gallery/spain2023/IMG_1381-min.jpeg",
         desc: "beach with a section of beach bar with straw umbrellas",
     },
     {
-        image: f29,
+        image: "/gallery/spain2023/f29-min.jpg",
         desc: "two small birds sitting on a rock by the water",
     }, {
-        image: f30,
+        image: "/gallery/spain2023/f30-min.jpg",
         desc: "a flock of bright pink flamingos in a green clearing",
     },
 ];
 
 export const france2023 = [
     {
-        image: f1,
+        image: "/gallery/france2023/f1-min.jpg",
         desc: "cathedral with soaring towers",
         title: "France 2023",
     },
     {
-        image: f2,
+        image: "/gallery/france2023/f2-min.jpg",
         desc: "flat-roofed lion at the entrance to the staircase",
     },
     {
-        image: f3,
+        image: "/gallery/france2023/f3-min.jpg",
         desc: "mural depicting two astronauts one giving the other a flower",
     },
     {
-        image: f4,
+        image: "/gallery/france2023/f4-min.jpg",
         desc: "cute purple house with wooden shutters",
     },
     {
-        image: f6,
+        image: "/gallery/france2023/f6-min.jpg",
         desc: "red poppies on a background of green grass",
     },
     {
-        image: f7,
+        image: "/gallery/france2023/f7-min.jpg",
         desc: "richly carved wall of the cathedral",
     },
     {
-        image: f8,
+        image: "/gallery/france2023/f8-min.jpg",
         desc: "a mural depicting an undressed couple in a glass of wine",
     },
     {
-        image: f9,
+        image: "/gallery/france2023/f9-min.jpg",
         desc: "a winding french street",
     },
     {
-        image: f11,
+        image: "/gallery/france2023/f11-min.jpg",
         desc: "a view of the riverfront with bicycles attached to the barges",
     },
     {
-        image: f13,
+        image: "/gallery/france2023/f13-min.jpg",
         desc: "view of the cathedral across the street",
     }, {
-        image: f14,
+        image: "/gallery/france2023/f14-min.jpg",
         desc: "a view of the massive building in the distance beyond the river and greenery",
     }, {
-        image: f15,
+        image: "/gallery/france2023/f15-min.jpg",
         desc: "a view of a French townhouse with interesting balconies",
     }, {
-        image: f16,
+        image: "/gallery/france2023/f16-min.jpg",
         desc: "semi-circular entrance to the hotel, with a sculpture of a woman with a vase on her head placed in the background",
     }, {
-        image: f17,
+        image: "/gallery/france2023/f17-min.jpg",
         desc: "a passageway for writers leading to an interesting townhouse",
     }, {
-        image: f18,
+        image: "/gallery/france2023/f18-min.jpg",
         desc: "massive gray building with interesting decorations",
     }, {
-        image: f19,
+        image: "/gallery/france2023/f19-min.jpg",
         desc: "a fragment of a bus shelter with the outlines of the old town drawn on it",
     }, {
-        image: f20,
+        image: "/gallery/france2023/f20-min.jpg",
         desc: "front of tenement house with huge lvov rows",
     }, {
-        image: f23,
+        image: "/gallery/france2023/f23-min.jpg",
         desc: "picturesque buildingscape in salzburg with lattice style",
     }, {
-        image: f24,
+        image: "/gallery/france2023/f24-min.jpg",
         desc: "wooden tall building against a light blue sky",
     }, {
-        image: f25,
+        image: "/gallery/france2023/f25-min.jpg",
         desc: "a bridge with logs attached to it and a wide building behind it",
     }, {
-        image: f26,
+        image: "/gallery/france2023/f26-min.jpg",
         desc: "building with ivy overgrowing it",
     },
     {
-        image: f27,
+        image: "/gallery/france2023/f27-min.jpg",
         desc: "amazingly designed townhouses on a flowing river",
     },
     {
-        image: f28,
+        image: "/gallery/france2023/f28-min.jpg",
         desc: "a view of a street surrounded by colorful townhouses",
     },
 ];
 
 export const germany2023 = [
     {
-        image: e1,
+        image: "/gallery/germany2023/IMG_1814-min.jpg",
         desc: "wartburg castle on a hill",
         title: "Germany 2023"
     },
     {
-        image: e2,
+        image: "/gallery/germany2023/IMG_1817-min.jpg",
         desc: "metal bas-relief depicting model of a castle",
     }, {
-        image: e3,
+        image: "/gallery/germany2023/IMG_1824-min.jpg",
         desc: "black plan of wartburg castle",
     }, {
-        image: e4,
-        desc: "a sculpture on a bench depicting bread and on it a cut rose",
-    }, {
-        image: e5,
+        image: "/gallery/germany2023/IMG_1840-min.jpg",
         desc: "a yellow food truck with delicious German sausages",
     },
 ];

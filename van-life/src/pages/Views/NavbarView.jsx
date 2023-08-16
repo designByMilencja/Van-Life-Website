@@ -7,8 +7,8 @@ const NavbarView = () => {
     const [toggle, setToggle] = useState(false)
     return (
         <nav className="w-full flex py-6 justify-between items-center navbar">
-            <a href="/" className="logo cursor-pointer">
-                <img src={camera} alt="Camera Icon" />
+            <a href="/" className="logo cursor-pointer flex flex-col items-center">
+                <img src={camera} alt="Camera Icon" className=" w-[70px]"/>
                 <h1 className="font-mono">Van Life</h1>
             </a>
             <ul className="list-none sm:flex hidden justify-end items-center flex-1 z-[10]">

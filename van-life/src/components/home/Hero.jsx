@@ -15,15 +15,15 @@ const Hero = () => {
                             <source src="/home/globe.mp4" type="video/mp4"/>
                             Your browser does not support the video tag.
                         </video>
-                        <div className="mt-[80px]">
-                            <div className=" w-[100%] h-[100%] relative z-[5] hidden md:block ml-[100px] ">
+                        <div className="mt-[80px] relative">
+                            <div className=" w-[100%] h-[100%] z-[5] hidden md:block ml-[100px] ">
                                 {headingLetters.map((letter, index) => (
                                     <p key={index} className="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]">
                                         {letter}
                                         <span className="fade-span font-poppins font-normal leading-[30.8px] p-1 text-white text-lg tracking-wider"> {spanTexts[index]} </span></p>
                                 ))}
                             </div>
-                            <div className="absolute z-[0] w-[40%] h-[15%] top-40 pink__gradient"></div>
+                            <div className="absolute z-[0] w-[15%] h-[15%] top-40 pink__gradient"></div>
                             <div className="absolute z-[1] w-[10%] h-[20%] rounded-full bottom-40 white__gradient"></div>
                             <div className="absolute z-[0] w-[20%] h-[70%] right-20 bottom-20  blue__gradient"></div>
                         </div>
