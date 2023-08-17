@@ -25,7 +25,7 @@ export const ButtonRound = ({textFirst, textSecond, url}) => {
                     <p className="font-poppins font-medium text-[18px] leading-[23px]">
                         <span className="text-gradient">{textFirst}</span>
                     </p>
-                    <img src={plane} alt="plane icon" className={`w-[40px] h-40px p-1 object-contain transition-transform ${
+                    <img src={plane} alt="plane icon" className={`w-[40px] h-[40px] p-1 object-contain transition-transform ${
                         isHovered ? 'hovered' : ''
                     }`}/>
                 </div>
